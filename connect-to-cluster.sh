@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pcluster ssh -i 'pcluster-key.pem' -n pcluster-ml
+pcluster ssh -i 'pcluster-key.pem' -n pcluster-ml-with-monitoring
