@@ -362,3 +362,79 @@ Epoch: [1/3]  [ 30/253]  eta: 0:03:00  loss: 10.026694 (10.111653)  lr: 0.000700
 Epoch: [1/3]  [ 40/253]  eta: 0:02:45  loss: 9.885674 (10.045398)  lr: 0.000697 (0.000699)  wd: 0.150000 (0.143290)  time: 0.673356  data: 0.000195  max mem: 6213
 Epoch: [1/3]  [ 50/253]  eta: 0:02:33  loss: 9.759730 (9.980861)  lr: 0.000692 (0.000697)  wd: 0.156922 (0.146719)  time: 0.673622  data: 0.000195  max mem: 6213
 Epoch: [1/3]  [ 60/253]  eta: 0:02:23  loss: 9.644232 (9.914563)  lr: 0.000686 (0.000695)  wd: 0.163952 (0.150186)  time: 0.673965  data: 0.000209  max mem: 6213
+Epoch: [1/3]  [ 70/253]  eta: 0:02:14  loss: 9.501731 (9.842498)  lr: 0.000678 (0.000692)  wd: 0.171078 (0.153686)  time: 0.673427  data: 0.000206  max mem: 6213
+Epoch: [1/3]  [ 80/253]  eta: 0:02:05  loss: 9.338829 (9.772439)  lr: 0.000670 (0.000689)  wd: 0.178288 (0.157217)  time: 0.675199  data: 0.000203  max mem: 6213
+Epoch: [1/3]  [ 90/253]  eta: 0:01:57  loss: 9.220443 (9.716935)  lr: 0.000660 (0.000685)  wd: 0.185569 (0.160776)  time: 0.674414  data: 0.000198  max mem: 6213
+Epoch: [1/3]  [100/253]  eta: 0:01:49  loss: 9.119389 (9.653156)  lr: 0.000649 (0.000681)  wd: 0.192909 (0.164359)  time: 0.672271  data: 0.000183  max mem: 6213
+Epoch: [1/3]  [110/253]  eta: 0:01:41  loss: 8.956540 (9.570450)  lr: 0.000636 (0.000676)  wd: 0.200296 (0.167964)  time: 0.673581  data: 0.000182  max mem: 6213
+Epoch: [1/3]  [120/253]  eta: 0:01:34  loss: 8.735961 (9.502974)  lr: 0.000623 (0.000671)  wd: 0.207716 (0.171588)  time: 0.673337  data: 0.000186  max mem: 6213
+Epoch: [1/3]  [130/253]  eta: 0:01:26  loss: 8.568217 (9.421729)  lr: 0.000609 (0.000666)  wd: 0.215158 (0.175226)  time: 0.673018  data: 0.000182  max mem: 6213
+Epoch: [1/3]  [140/253]  eta: 0:01:19  loss: 8.187945 (9.332162)  lr: 0.000593 (0.000660)  wd: 0.222608 (0.178877)  time: 0.670634  data: 0.000176  max mem: 6213
+Epoch: [1/3]  [150/253]  eta: 0:01:12  loss: 8.236731 (9.255901)  lr: 0.000577 (0.000654)  wd: 0.230053 (0.182537)  time: 0.668616  data: 0.000194  max mem: 6213
+Epoch: [1/3]  [160/253]  eta: 0:01:05  loss: 8.269475 (9.196485)  lr: 0.000560 (0.000648)  wd: 0.237481 (0.186203)  time: 0.669681  data: 0.000202  max mem: 6213
+Epoch: [1/3]  [170/253]  eta: 0:00:57  loss: 8.046119 (9.106332)  lr: 0.000542 (0.000641)  wd: 0.244879 (0.189871)  time: 0.669686  data: 0.000184  max mem: 6213
+Epoch: [1/3]  [180/253]  eta: 0:00:50  loss: 7.905222 (9.049953)  lr: 0.000523 (0.000634)  wd: 0.252234 (0.193538)  time: 0.668778  data: 0.000175  max mem: 6213
+Epoch: [1/3]  [190/253]  eta: 0:00:43  loss: 7.989148 (8.985320)  lr: 0.000504 (0.000627)  wd: 0.259535 (0.197202)  time: 0.668893  data: 0.000185  max mem: 6213
+Epoch: [1/3]  [200/253]  eta: 0:00:36  loss: 7.776037 (8.931717)  lr: 0.000484 (0.000619)  wd: 0.266767 (0.200859)  time: 0.668326  data: 0.000186  max mem: 6213
+Epoch: [1/3]  [210/253]  eta: 0:00:29  loss: 7.706923 (8.865779)  lr: 0.000463 (0.000612)  wd: 0.273920 (0.204506)  time: 0.667611  data: 0.000181  max mem: 6213
+Epoch: [1/3]  [220/253]  eta: 0:00:22  loss: 7.569232 (8.807011)  lr: 0.000443 (0.000604)  wd: 0.280980 (0.208140)  time: 0.667601  data: 0.000199  max mem: 6213
+Epoch: [1/3]  [230/253]  eta: 0:00:15  loss: 7.388472 (8.743260)  lr: 0.000421 (0.000595)  wd: 0.287935 (0.211758)  time: 0.663240  data: 0.000150  max mem: 6213
+Epoch: [1/3]  [240/253]  eta: 0:00:08  loss: 7.345217 (8.690119)  lr: 0.000400 (0.000587)  wd: 0.294775 (0.215356)  time: 0.659767  data: 0.000082  max mem: 6213
+Epoch: [1/3]  [250/253]  eta: 0:00:02  loss: 7.419959 (8.642348)  lr: 0.000378 (0.000578)  wd: 0.301486 (0.218932)  time: 0.661543  data: 0.000080  max mem: 6213
+Epoch: [1/3]  [252/253]  eta: 0:00:00  loss: 7.419959 (8.627807)  lr: 0.000374 (0.000576)  wd: 0.302812 (0.219644)  time: 0.643523  data: 0.000079  max mem: 6213
+Epoch: [1/3] Total time: 0:02:53 (0.686594 s / it)
+Averaged stats: loss: 7.419959 (8.624608)  lr: 0.000374 (0.000576)  wd: 0.302812 (0.219644)
+Epoch: [2/3]  [  0/253]  eta: 0:16:39  loss: 7.255652 (7.255652)  lr: 0.000352 (0.000352)  wd: 0.310000 (0.310000)  time: 3.948819  data: 3.211196  max mem: 6213
+Epoch: [2/3]  [ 10/253]  eta: 0:03:57  loss: 7.440083 (7.480856)  lr: 0.000341 (0.000341)  wd: 0.313207 (0.313199)  time: 0.976266  data: 0.292121  max mem: 6213
+Epoch: [2/3]  [ 20/253]  eta: 0:03:14  loss: 7.407064 (7.418129)  lr: 0.000328 (0.000330)  wd: 0.316373 (0.316343)  time: 0.678947  data: 0.000200  max mem: 6213
+Epoch: [2/3]  [ 30/253]  eta: 0:02:54  loss: 7.190276 (7.335027)  lr: 0.000306 (0.000319)  wd: 0.322582 (0.319431)  time: 0.677551  data: 0.000182  max mem: 6213
+Epoch: [2/3]  [ 40/253]  eta: 0:02:41  loss: 7.190276 (7.347940)  lr: 0.000285 (0.000309)  wd: 0.328614 (0.322459)  time: 0.681330  data: 0.000199  max mem: 6213
+Epoch: [2/3]  [ 50/253]  eta: 0:02:30  loss: 7.383231 (7.402531)  lr: 0.000264 (0.000298)  wd: 0.334461 (0.325425)  time: 0.680044  data: 0.000209  max mem: 6213
+Epoch: [2/3]  [ 60/253]  eta: 0:02:21  loss: 7.338953 (7.361165)  lr: 0.000243 (0.000287)  wd: 0.340111 (0.328326)  time: 0.672853  data: 0.000183  max mem: 6213
+Epoch: [2/3]  [ 70/253]  eta: 0:02:12  loss: 7.108728 (7.314991)  lr: 0.000222 (0.000277)  wd: 0.345556 (0.331160)  time: 0.671826  data: 0.000176  max mem: 6213
+Epoch: [2/3]  [ 80/253]  eta: 0:02:03  loss: 7.216599 (7.328657)  lr: 0.000202 (0.000267)  wd: 0.350785 (0.333925)  time: 0.670733  data: 0.000189  max mem: 6213
+Epoch: [2/3]  [ 90/253]  eta: 0:01:55  loss: 7.248526 (7.295769)  lr: 0.000183 (0.000257)  wd: 0.355791 (0.336619)  time: 0.669456  data: 0.000182  max mem: 6213
+Epoch: [2/3]  [100/253]  eta: 0:01:48  loss: 7.039469 (7.266608)  lr: 0.000164 (0.000247)  wd: 0.360564 (0.339238)  time: 0.673506  data: 0.000181  max mem: 6213
+Epoch: [2/3]  [110/253]  eta: 0:01:40  loss: 7.019664 (7.255021)  lr: 0.000146 (0.000237)  wd: 0.365096 (0.341782)  time: 0.675848  data: 0.000192  max mem: 6213
+Epoch: [2/3]  [120/253]  eta: 0:01:33  loss: 7.096776 (7.254525)  lr: 0.000129 (0.000227)  wd: 0.369379 (0.344248)  time: 0.671600  data: 0.000211  max mem: 6213
+Epoch: [2/3]  [130/253]  eta: 0:01:26  loss: 7.182768 (7.232360)  lr: 0.000112 (0.000218)  wd: 0.373407 (0.346633)  time: 0.672700  data: 0.000217  max mem: 6213
+Epoch: [2/3]  [140/253]  eta: 0:01:18  loss: 6.813609 (7.204125)  lr: 0.000097 (0.000209)  wd: 0.377172 (0.348937)  time: 0.671336  data: 0.000200  max mem: 6213
+Epoch: [2/3]  [150/253]  eta: 0:01:11  loss: 6.813609 (7.181835)  lr: 0.000083 (0.000200)  wd: 0.380668 (0.351157)  time: 0.669097  data: 0.000197  max mem: 6213
+Epoch: [2/3]  [160/253]  eta: 0:01:04  loss: 6.737472 (7.146185)  lr: 0.000069 (0.000192)  wd: 0.383888 (0.353292)  time: 0.671927  data: 0.000188  max mem: 6213
+Epoch: [2/3]  [170/253]  eta: 0:00:57  loss: 6.686316 (7.143801)  lr: 0.000057 (0.000183)  wd: 0.386828 (0.355340)  time: 0.672034  data: 0.000190  max mem: 6213
+Epoch: [2/3]  [180/253]  eta: 0:00:50  loss: 6.992186 (7.132518)  lr: 0.000046 (0.000176)  wd: 0.389482 (0.357299)  time: 0.670811  data: 0.000195  max mem: 6213
+Epoch: [2/3]  [190/253]  eta: 0:00:43  loss: 7.005635 (7.128014)  lr: 0.000035 (0.000168)  wd: 0.391845 (0.359169)  time: 0.670227  data: 0.000197  max mem: 6213
+Epoch: [2/3]  [200/253]  eta: 0:00:36  loss: 6.934813 (7.113188)  lr: 0.000027 (0.000161)  wd: 0.393915 (0.360947)  time: 0.669801  data: 0.000204  max mem: 6213
+Epoch: [2/3]  [210/253]  eta: 0:00:29  loss: 6.658957 (7.089638)  lr: 0.000019 (0.000154)  wd: 0.395686 (0.362633)  time: 0.670631  data: 0.000202  max mem: 6213
+Epoch: [2/3]  [220/253]  eta: 0:00:22  loss: 6.699847 (7.090349)  lr: 0.000013 (0.000147)  wd: 0.397157 (0.364226)  time: 0.673008  data: 0.000198  max mem: 6213
+Epoch: [2/3]  [230/253]  eta: 0:00:15  loss: 7.129394 (7.082461)  lr: 0.000008 (0.000141)  wd: 0.398323 (0.365723)  time: 0.669783  data: 0.000139  max mem: 6213
+Epoch: [2/3]  [240/253]  eta: 0:00:08  loss: 7.175694 (7.088475)  lr: 0.000004 (0.000136)  wd: 0.399185 (0.367125)  time: 0.664620  data: 0.000081  max mem: 6213
+Epoch: [2/3]  [250/253]  eta: 0:00:02  loss: 7.175694 (7.088813)  lr: 0.000002 (0.000130)  wd: 0.399739 (0.368431)  time: 0.663287  data: 0.000081  max mem: 6213
+Epoch: [2/3]  [252/253]  eta: 0:00:00  loss: 7.083926 (7.084379)  lr: 0.000002 (0.000129)  wd: 0.399813 (0.368681)  time: 0.644745  data: 0.000080  max mem: 6213
+Epoch: [2/3] Total time: 0:02:53 (0.684749 s / it)
+Averaged stats: loss: 7.083926 (7.030441)  lr: 0.000002 (0.000129)  wd: 0.399813 (0.368681)
+compute-gpu-dy-distributed-ml-2:29168:29218 [3] NCCL INFO [Service thread] Connection closed by localRank 3
+compute-gpu-dy-distributed-ml-2:29166:29220 [1] NCCL INFO [Service thread] Connection closed by localRank 1
+compute-gpu-dy-distributed-ml-3:22754:22806 [3] NCCL INFO [Service thread] Connection closed by localRank 3
+compute-gpu-dy-distributed-ml-3:22752:22804 [1] NCCL INFO [Service thread] Connection closed by localRank 1
+compute-gpu-dy-distributed-ml-3:22751:22805 [0] NCCL INFO [Service thread] Connection closed by localRank 0
+compute-gpu-dy-distributed-ml-3:22753:22807 [2] NCCL INFO [Service thread] Connection closed by localRank 2
+compute-gpu-dy-distributed-ml-1:30396:30449 [2] NCCL INFO [Service thread] Connection closed by localRank 2
+compute-gpu-dy-distributed-ml-1:30395:30451 [1] NCCL INFO [Service thread] Connection closed by localRank 1
+compute-gpu-dy-distributed-ml-1:30397:30448 [3] NCCL INFO [Service thread] Connection closed by localRank 3
+compute-gpu-dy-distributed-ml-2:29165:29221 [0] NCCL INFO [Service thread] Connection closed by localRank 0
+compute-gpu-dy-distributed-ml-2:29167:29219 [2] NCCL INFO [Service thread] Connection closed by localRank 2
+compute-gpu-dy-distributed-ml-2:29166:29166 [1] NCCL INFO comm 0x57fc8050 rank 5 nranks 12 cudaDev 1 busId 1c0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-1:30396:30396 [2] NCCL INFO comm 0x58e55720 rank 2 nranks 12 cudaDev 2 busId 1d0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-2:29168:29168 [3] NCCL INFO comm 0x586e7e10 rank 7 nranks 12 cudaDev 3 busId 1e0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-3:22753:22753 [2] NCCL INFO comm 0x5b9be300 rank 10 nranks 12 cudaDev 2 busId 1d0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-1:30397:30397 [3] NCCL INFO comm 0x59e27fc0 rank 3 nranks 12 cudaDev 3 busId 1e0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-3:22754:22754 [3] NCCL INFO comm 0x59191dc0 rank 11 nranks 12 cudaDev 3 busId 1e0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-1:30395:30395 [1] NCCL INFO comm 0x58a7dde0 rank 1 nranks 12 cudaDev 1 busId 1c0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-3:22752:22752 [1] NCCL INFO comm 0x592ac1d0 rank 9 nranks 12 cudaDev 1 busId 1c0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-2:29167:29167 [2] NCCL INFO comm 0x5988f3e0 rank 6 nranks 12 cudaDev 2 busId 1d0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-3:22751:22751 [0] NCCL INFO comm 0x59817290 rank 8 nranks 12 cudaDev 0 busId 1b0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-2:29165:29165 [0] NCCL INFO comm 0x5aabc6e0 rank 4 nranks 12 cudaDev 0 busId 1b0 - Abort COMPLETE
+Training time 0:08:52
+compute-gpu-dy-distributed-ml-1:30394:30450 [0] NCCL INFO [Service thread] Connection closed by localRank 0
+compute-gpu-dy-distributed-ml-1:30394:30394 [0] NCCL INFO comm 0x587988f0 rank 0 nranks 12 cudaDev 0 busId 1b0 - Abort COMPLETE

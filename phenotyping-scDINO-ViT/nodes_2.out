@@ -1,0 +1,376 @@
+Node IP: 10.1.20.242
+| distributed init (rank 0): env://
+| distributed init (rank 2): env://
+| distributed init (rank 1): env://
+| distributed init (rank 3): env://
+| distributed init (rank 6): env://
+| distributed init (rank 7): env://
+| distributed init (rank 4): env://
+| distributed init (rank 5): env://
+compute-gpu-dy-distributed-ml-1:35912:35912 [0] NCCL INFO Bootstrap : Using eth0:10.1.20.242<0>
+compute-gpu-dy-distributed-ml-1:35912:35912 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+compute-gpu-dy-distributed-ml-1:35912:35912 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+compute-gpu-dy-distributed-ml-1:35912:35912 [0] NCCL INFO cudaDriverVersion 12020
+NCCL version 2.18.1+cuda11.6
+compute-gpu-dy-distributed-ml-1:35913:35913 [1] NCCL INFO cudaDriverVersion 12020
+compute-gpu-dy-distributed-ml-1:35913:35913 [1] NCCL INFO Bootstrap : Using eth0:10.1.20.242<0>
+compute-gpu-dy-distributed-ml-1:35913:35913 [1] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+compute-gpu-dy-distributed-ml-1:35913:35913 [1] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+compute-gpu-dy-distributed-ml-1:35915:35915 [3] NCCL INFO cudaDriverVersion 12020
+compute-gpu-dy-distributed-ml-1:35915:35915 [3] NCCL INFO Bootstrap : Using eth0:10.1.20.242<0>
+compute-gpu-dy-distributed-ml-1:35915:35915 [3] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+compute-gpu-dy-distributed-ml-1:35915:35915 [3] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+compute-gpu-dy-distributed-ml-1:35914:35914 [2] NCCL INFO cudaDriverVersion 12020
+compute-gpu-dy-distributed-ml-1:35914:35914 [2] NCCL INFO Bootstrap : Using eth0:10.1.20.242<0>
+compute-gpu-dy-distributed-ml-1:35914:35914 [2] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+compute-gpu-dy-distributed-ml-1:35914:35914 [2] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+compute-gpu-dy-distributed-ml-2:34466:34466 [2] NCCL INFO cudaDriverVersion 12020
+compute-gpu-dy-distributed-ml-2:34466:34466 [2] NCCL INFO Bootstrap : Using eth0:10.1.62.25<0>
+compute-gpu-dy-distributed-ml-2:34466:34466 [2] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+compute-gpu-dy-distributed-ml-2:34466:34466 [2] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+compute-gpu-dy-distributed-ml-2:34464:34464 [0] NCCL INFO cudaDriverVersion 12020
+compute-gpu-dy-distributed-ml-2:34464:34464 [0] NCCL INFO Bootstrap : Using eth0:10.1.62.25<0>
+compute-gpu-dy-distributed-ml-2:34464:34464 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+compute-gpu-dy-distributed-ml-2:34464:34464 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+compute-gpu-dy-distributed-ml-2:34465:34465 [1] NCCL INFO cudaDriverVersion 12020
+compute-gpu-dy-distributed-ml-2:34465:34465 [1] NCCL INFO Bootstrap : Using eth0:10.1.62.25<0>
+compute-gpu-dy-distributed-ml-2:34465:34465 [1] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+compute-gpu-dy-distributed-ml-2:34465:34465 [1] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+compute-gpu-dy-distributed-ml-2:34467:34467 [3] NCCL INFO cudaDriverVersion 12020
+compute-gpu-dy-distributed-ml-2:34467:34467 [3] NCCL INFO Bootstrap : Using eth0:10.1.62.25<0>
+compute-gpu-dy-distributed-ml-2:34467:34467 [3] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+compute-gpu-dy-distributed-ml-2:34467:34467 [3] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO NET/OFI Configuring AWS-specific options
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Using network AWS Libfabric
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO NET/OFI Configuring AWS-specific options
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO NET/OFI Configuring AWS-specific options
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO Using network AWS Libfabric
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO NET/OFI Configuring AWS-specific options
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO Using network AWS Libfabric
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO Using network AWS Libfabric
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO NET/OFI Configuring AWS-specific options
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO Using network AWS Libfabric
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO NET/OFI Configuring AWS-specific options
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO Using network AWS Libfabric
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO NET/OFI Configuring AWS-specific options
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO Using network AWS Libfabric
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO NET/OFI Configuring AWS-specific options
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO Using network AWS Libfabric
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO Trees [0] 6/-1/-1->5->4 [1] 6/-1/-1->5->4
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO P2P Chunksize set to 131072
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] -1/-1/-1->7->6
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 7/-1/-1->6->5
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO P2P Chunksize set to 131072
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO Trees [0] -1/-1/-1->3->2 [1] -1/-1/-1->3->2
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/-1/-1->2->1
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Channel 00/02 :    0   1   2   3   4   5   6   7
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] 2/-1/-1->1->0
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO P2P Chunksize set to 131072
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO P2P Chunksize set to 131072
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO P2P Chunksize set to 131072
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Channel 01/02 :    0   1   2   3   4   5   6   7
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Trees [0] 1/4/-1->0->-1 [1] 1/-1/-1->0->4
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO P2P Chunksize set to 131072
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO P2P Chunksize set to 131072
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO Trees [0] 5/-1/-1->4->0 [1] 5/0/-1->4->-1
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO P2P Chunksize set to 131072
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO Channel 00 : 1[1c0] -> 2[1d0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO Channel 00 : 2[1d0] -> 3[1e0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO Channel 01 : 1[1c0] -> 2[1d0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO Channel 01 : 2[1d0] -> 3[1e0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO Channel 00 : 5[1c0] -> 6[1d0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO Channel 00 : 6[1d0] -> 7[1e0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO Channel 01 : 5[1c0] -> 6[1d0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO Channel 01 : 6[1d0] -> 7[1e0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO Channel 00/0 : 3[1e0] -> 4[1b0] [receive] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Channel 00/0 : 7[1e0] -> 0[1b0] [receive] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO Channel 00/0 : 3[1e0] -> 4[1b0] [send] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO Channel 00/0 : 7[1e0] -> 0[1b0] [send] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO Channel 01/0 : 3[1e0] -> 4[1b0] [receive] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO Channel 00 : 4[1b0] -> 5[1c0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO Channel 01 : 4[1b0] -> 5[1c0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Channel 01/0 : 7[1e0] -> 0[1b0] [receive] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Channel 00 : 0[1b0] -> 1[1c0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Channel 01 : 0[1b0] -> 1[1c0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO Channel 01/0 : 3[1e0] -> 4[1b0] [send] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO Channel 01/0 : 7[1e0] -> 0[1b0] [send] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO Connected all rings
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO Connected all rings
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO Connected all rings
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO Connected all rings
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO Channel 00 : 1[1c0] -> 0[1b0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO Channel 01 : 1[1c0] -> 0[1b0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO Channel 00 : 5[1c0] -> 4[1b0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO Channel 01 : 5[1c0] -> 4[1b0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO Channel 00 : 6[1d0] -> 5[1c0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO Channel 01 : 6[1d0] -> 5[1c0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO Channel 00 : 2[1d0] -> 1[1c0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO Channel 01 : 2[1d0] -> 1[1c0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO Connected all rings
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO Connected all rings
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO Channel 00 : 3[1e0] -> 2[1d0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO Channel 00 : 7[1e0] -> 6[1d0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO Channel 01 : 3[1e0] -> 2[1d0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO Channel 01 : 7[1e0] -> 6[1d0] via SHM/direct/direct
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO Connected all trees
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO NCCL_PROTO set by environment to simple
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO Connected all trees
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO NCCL_PROTO set by environment to simple
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO Connected all trees
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO NCCL_PROTO set by environment to simple
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO Connected all trees
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO NCCL_PROTO set by environment to simple
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO Connected all rings
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Connected all rings
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO Channel 00/0 : 0[1b0] -> 4[1b0] [receive] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Channel 00/0 : 4[1b0] -> 0[1b0] [receive] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO Channel 01/0 : 0[1b0] -> 4[1b0] [receive] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Channel 01/0 : 4[1b0] -> 0[1b0] [receive] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO Channel 00/0 : 4[1b0] -> 0[1b0] [send] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Channel 00/0 : 0[1b0] -> 4[1b0] [send] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO Channel 01/0 : 4[1b0] -> 0[1b0] [send] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Channel 01/0 : 0[1b0] -> 4[1b0] [send] via NET/AWS Libfabric/0
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO Connected all trees
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO NCCL_PROTO set by environment to simple
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO Connected all trees
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO NCCL_PROTO set by environment to simple
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO Connected all trees
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO NCCL_PROTO set by environment to simple
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO Connected all trees
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO NCCL_PROTO set by environment to simple
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+compute-gpu-dy-distributed-ml-1:35912:35962 [0] NCCL INFO comm 0x598e5d90 rank 0 nranks 8 cudaDev 0 busId 1b0 commId 0x24fed2d379ef198d - Init COMPLETE
+compute-gpu-dy-distributed-ml-1:35914:35964 [2] NCCL INFO comm 0x5a888520 rank 2 nranks 8 cudaDev 2 busId 1d0 commId 0x24fed2d379ef198d - Init COMPLETE
+compute-gpu-dy-distributed-ml-2:34466:34511 [2] NCCL INFO comm 0x596dcec0 rank 6 nranks 8 cudaDev 2 busId 1d0 commId 0x24fed2d379ef198d - Init COMPLETE
+compute-gpu-dy-distributed-ml-2:34464:34512 [0] NCCL INFO comm 0x59ffa2d0 rank 4 nranks 8 cudaDev 0 busId 1b0 commId 0x24fed2d379ef198d - Init COMPLETE
+compute-gpu-dy-distributed-ml-2:34465:34513 [1] NCCL INFO comm 0x58955740 rank 5 nranks 8 cudaDev 1 busId 1c0 commId 0x24fed2d379ef198d - Init COMPLETE
+compute-gpu-dy-distributed-ml-2:34467:34514 [3] NCCL INFO comm 0x5b29a450 rank 7 nranks 8 cudaDev 3 busId 1e0 commId 0x24fed2d379ef198d - Init COMPLETE
+compute-gpu-dy-distributed-ml-1:35915:35965 [3] NCCL INFO comm 0x5a70c380 rank 3 nranks 8 cudaDev 3 busId 1e0 commId 0x24fed2d379ef198d - Init COMPLETE
+compute-gpu-dy-distributed-ml-1:35913:35963 [1] NCCL INFO comm 0x5a54bf70 rank 1 nranks 8 cudaDev 1 busId 1c0 commId 0x24fed2d379ef198d - Init COMPLETE
+git:
+  sha: ed4a20002b61c520f0ccd650caa518bdef1a1790, status: has uncommited changes, branch: main
+
+arch: vit_small
+batch_size_per_gpu: 30
+center_crop: 0
+channel_dict: {0: 'aTub', 1: 'BF', 2: 'DAPI', 3: 'Oct4', 4: 'PE'}
+clip_grad: 3.0
+dataset_dir: /fsx/fsx
+dino_vit_name: mySCDINOmodel
+dist_url: env://
+drop_path_rate: 0.1
+epochs: 3
+freeze_last_layer: 1
+full_ViT_name: mySCDINOmodel_
+global_crops_scale: (0.4, 1.0)
+gpu: 0
+images_are_RGB: False
+local_crops_number: 8
+local_crops_scale: (0.05, 0.4)
+local_rank: 0
+lr: 0.0005
+min_lr: 1e-06
+momentum_teacher: 0.996
+name_of_run: scDino_pcluster_full_0
+norm_last_layer: True
+norm_per_channel_file: /fsx/outputdir/scDino_pcluster_full_0/mean_and_std_of_dataset.txt
+num_workers: 16
+optimizer: adamw
+out_dim: 65536
+output_dir: /fsx/outputdir
+parse_params: None
+patch_size: 16
+rank: 0
+saveckp_freq: 1
+seed: 40
+selected_channels: [0, 1, 2, 3, 4]
+teacher_temp: 0.04
+train_datasetsplit_fraction: 0.8
+upscale_factor: 0
+use_bn_in_head: False
+use_fp16: True
+warmup_epochs: 1
+warmup_teacher_temp: 0.04
+warmup_teacher_temp_epochs: 0
+weight_decay: 0.04
+weight_decay_end: 0.4
+world_size: 8
+saving log file of run parameters
+ENTERING CUSTOM DATSET CLASS
+Split between train and test dataset: 90852 22712
+Train dataset consists of 90852 images.
+Successfully loaded data.
+Student and Teacher are built: they are both vit_small network.
+Loss, optimizer and schedulers ready.
+Starting DINO training !
+Epoch: [0/3]  [  0/379]  eta: 1:09:24  loss: 10.867367 (10.867367)  lr: 0.000000 (0.000000)  wd: 0.040000 (0.040000)  time: 10.987372  data: 7.257120  max mem: 5693
+Epoch: [0/3]  [ 10/379]  eta: 0:09:38  loss: 10.867367 (10.868993)  lr: 0.000006 (0.000006)  wd: 0.040017 (0.040024)  time: 1.567436  data: 0.659891  max mem: 6020
+Epoch: [0/3]  [ 20/379]  eta: 0:06:43  loss: 10.879404 (10.886593)  lr: 0.000012 (0.000012)  wd: 0.040069 (0.040094)  time: 0.631246  data: 0.000192  max mem: 6020
+Epoch: [0/3]  [ 30/379]  eta: 0:05:36  loss: 10.887952 (10.886270)  lr: 0.000025 (0.000019)  wd: 0.040275 (0.040209)  time: 0.633057  data: 0.000188  max mem: 6020
+Epoch: [0/3]  [ 40/379]  eta: 0:04:59  loss: 10.874939 (10.882791)  lr: 0.000037 (0.000025)  wd: 0.040618 (0.040371)  time: 0.632723  data: 0.000168  max mem: 6020
+Epoch: [0/3]  [ 50/379]  eta: 0:04:34  loss: 10.843705 (10.868449)  lr: 0.000050 (0.000031)  wd: 0.041098 (0.040578)  time: 0.634268  data: 0.000180  max mem: 6020
+Epoch: [0/3]  [ 60/379]  eta: 0:04:15  loss: 10.788629 (10.854930)  lr: 0.000062 (0.000037)  wd: 0.041715 (0.040830)  time: 0.634273  data: 0.000190  max mem: 6020
+Epoch: [0/3]  [ 70/379]  eta: 0:04:00  loss: 10.770013 (10.840431)  lr: 0.000074 (0.000043)  wd: 0.042468 (0.041128)  time: 0.636263  data: 0.000185  max mem: 6020
+Epoch: [0/3]  [ 80/379]  eta: 0:03:47  loss: 10.726877 (10.824340)  lr: 0.000087 (0.000050)  wd: 0.043356 (0.041471)  time: 0.636624  data: 0.000164  max mem: 6020
+Epoch: [0/3]  [ 90/379]  eta: 0:03:36  loss: 10.693273 (10.808679)  lr: 0.000099 (0.000056)  wd: 0.044380 (0.041860)  time: 0.637982  data: 0.000163  max mem: 6020
+Epoch: [0/3]  [100/379]  eta: 0:03:25  loss: 10.683503 (10.796172)  lr: 0.000112 (0.000062)  wd: 0.045537 (0.042293)  time: 0.640451  data: 0.000191  max mem: 6020
+Epoch: [0/3]  [110/379]  eta: 0:03:16  loss: 10.646487 (10.781440)  lr: 0.000124 (0.000068)  wd: 0.046827 (0.042771)  time: 0.642362  data: 0.000202  max mem: 6020
+Epoch: [0/3]  [120/379]  eta: 0:03:07  loss: 10.626148 (10.769264)  lr: 0.000136 (0.000074)  wd: 0.048250 (0.043294)  time: 0.644189  data: 0.000202  max mem: 6020
+Epoch: [0/3]  [130/379]  eta: 0:02:58  loss: 10.609417 (10.757555)  lr: 0.000149 (0.000081)  wd: 0.049804 (0.043860)  time: 0.646099  data: 0.000197  max mem: 6020
+Epoch: [0/3]  [140/379]  eta: 0:02:50  loss: 10.582013 (10.744877)  lr: 0.000161 (0.000087)  wd: 0.051488 (0.044471)  time: 0.647487  data: 0.000191  max mem: 6020
+Epoch: [0/3]  [150/379]  eta: 0:02:42  loss: 10.565150 (10.732187)  lr: 0.000174 (0.000093)  wd: 0.053300 (0.045126)  time: 0.651848  data: 0.000189  max mem: 6020
+Epoch: [0/3]  [160/379]  eta: 0:02:34  loss: 10.544353 (10.720152)  lr: 0.000186 (0.000099)  wd: 0.055240 (0.045824)  time: 0.651520  data: 0.000181  max mem: 6020
+Epoch: [0/3]  [170/379]  eta: 0:02:26  loss: 10.535585 (10.708790)  lr: 0.000198 (0.000105)  wd: 0.057305 (0.046565)  time: 0.650465  data: 0.000187  max mem: 6020
+Epoch: [0/3]  [180/379]  eta: 0:02:19  loss: 10.535585 (10.699712)  lr: 0.000211 (0.000112)  wd: 0.059495 (0.047349)  time: 0.654132  data: 0.000189  max mem: 6020
+Epoch: [0/3]  [190/379]  eta: 0:02:11  loss: 10.525238 (10.690282)  lr: 0.000223 (0.000118)  wd: 0.061807 (0.048176)  time: 0.654413  data: 0.000181  max mem: 6020
+Epoch: [0/3]  [200/379]  eta: 0:02:04  loss: 10.524661 (10.681291)  lr: 0.000236 (0.000124)  wd: 0.064240 (0.049044)  time: 0.656619  data: 0.000186  max mem: 6020
+Epoch: [0/3]  [210/379]  eta: 0:01:57  loss: 10.489980 (10.672069)  lr: 0.000248 (0.000130)  wd: 0.066792 (0.049955)  time: 0.659422  data: 0.000191  max mem: 6020
+Epoch: [0/3]  [220/379]  eta: 0:01:49  loss: 10.464340 (10.663247)  lr: 0.000260 (0.000136)  wd: 0.069461 (0.050906)  time: 0.659064  data: 0.000184  max mem: 6020
+Epoch: [0/3]  [230/379]  eta: 0:01:42  loss: 10.488425 (10.655519)  lr: 0.000273 (0.000143)  wd: 0.072244 (0.051898)  time: 0.662072  data: 0.000190  max mem: 6020
+Epoch: [0/3]  [240/379]  eta: 0:01:35  loss: 10.469487 (10.647432)  lr: 0.000285 (0.000149)  wd: 0.075141 (0.052931)  time: 0.667682  data: 0.000184  max mem: 6020
+Epoch: [0/3]  [250/379]  eta: 0:01:28  loss: 10.450680 (10.639798)  lr: 0.000298 (0.000155)  wd: 0.078148 (0.054004)  time: 0.670636  data: 0.000183  max mem: 6020
+Epoch: [0/3]  [260/379]  eta: 0:01:21  loss: 10.438221 (10.631902)  lr: 0.000310 (0.000161)  wd: 0.081263 (0.055116)  time: 0.673903  data: 0.000204  max mem: 6020
+Epoch: [0/3]  [270/379]  eta: 0:01:14  loss: 10.443396 (10.625047)  lr: 0.000322 (0.000167)  wd: 0.084485 (0.056266)  time: 0.671584  data: 0.000204  max mem: 6020
+Epoch: [0/3]  [280/379]  eta: 0:01:07  loss: 10.432775 (10.617603)  lr: 0.000335 (0.000174)  wd: 0.087809 (0.057456)  time: 0.667153  data: 0.000202  max mem: 6020
+Epoch: [0/3]  [290/379]  eta: 0:01:01  loss: 10.415426 (10.611120)  lr: 0.000347 (0.000180)  wd: 0.091235 (0.058683)  time: 0.667035  data: 0.000191  max mem: 6020
+Epoch: [0/3]  [300/379]  eta: 0:00:54  loss: 10.418247 (10.604272)  lr: 0.000360 (0.000186)  wd: 0.094759 (0.059947)  time: 0.666218  data: 0.000179  max mem: 6020
+Epoch: [0/3]  [310/379]  eta: 0:00:47  loss: 10.410707 (10.597783)  lr: 0.000372 (0.000192)  wd: 0.098378 (0.061248)  time: 0.665719  data: 0.000186  max mem: 6020
+Epoch: [0/3]  [320/379]  eta: 0:00:40  loss: 10.405932 (10.591962)  lr: 0.000384 (0.000198)  wd: 0.102091 (0.062586)  time: 0.663415  data: 0.000201  max mem: 6020
+Epoch: [0/3]  [330/379]  eta: 0:00:33  loss: 10.393801 (10.585733)  lr: 0.000397 (0.000205)  wd: 0.105893 (0.063959)  time: 0.664765  data: 0.000203  max mem: 6020
+Epoch: [0/3]  [340/379]  eta: 0:00:26  loss: 10.389156 (10.579914)  lr: 0.000409 (0.000211)  wd: 0.109783 (0.065366)  time: 0.666769  data: 0.000181  max mem: 6020
+Epoch: [0/3]  [350/379]  eta: 0:00:19  loss: 10.361987 (10.573375)  lr: 0.000422 (0.000217)  wd: 0.113757 (0.066808)  time: 0.661981  data: 0.000164  max mem: 6020
+Epoch: [0/3]  [360/379]  eta: 0:00:12  loss: 10.348557 (10.567813)  lr: 0.000434 (0.000223)  wd: 0.117811 (0.068284)  time: 0.656524  data: 0.000119  max mem: 6020
+Epoch: [0/3]  [370/379]  eta: 0:00:06  loss: 10.347240 (10.559951)  lr: 0.000446 (0.000229)  wd: 0.121944 (0.069792)  time: 0.654817  data: 0.000080  max mem: 6020
+Epoch: [0/3]  [378/379]  eta: 0:00:00  loss: 10.316873 (10.554445)  lr: 0.000456 (0.000234)  wd: 0.125304 (0.071023)  time: 0.655896  data: 0.000080  max mem: 6020
+Epoch: [0/3] Total time: 0:04:18 (0.681094 s / it)
+Averaged stats: loss: 10.316873 (10.554493)  lr: 0.000456 (0.000234)  wd: 0.125304 (0.071023)
+Epoch: [1/3]  [  0/379]  eta: 0:31:40  loss: 10.260797 (10.260797)  lr: 0.000469 (0.000469)  wd: 0.130000 (0.130000)  time: 5.013489  data: 4.256641  max mem: 6028
+Epoch: [1/3]  [ 10/379]  eta: 0:06:29  loss: 10.094469 (10.110068)  lr: 0.000469 (0.000469)  wd: 0.132162 (0.132165)  time: 1.056079  data: 0.387117  max mem: 6213
+Epoch: [1/3]  [ 20/379]  eta: 0:05:11  loss: 9.830063 (9.949183)  lr: 0.000469 (0.000468)  wd: 0.134341 (0.134353)  time: 0.661769  data: 0.000168  max mem: 6213
+Epoch: [1/3]  [ 30/379]  eta: 0:04:39  loss: 9.725205 (9.814696)  lr: 0.000468 (0.000468)  wd: 0.138747 (0.136562)  time: 0.661593  data: 0.000167  max mem: 6213
+Epoch: [1/3]  [ 40/379]  eta: 0:04:20  loss: 9.573232 (9.734005)  lr: 0.000467 (0.000468)  wd: 0.143216 (0.138791)  time: 0.664111  data: 0.000179  max mem: 6213
+Epoch: [1/3]  [ 50/379]  eta: 0:04:06  loss: 9.355132 (9.632200)  lr: 0.000465 (0.000467)  wd: 0.147743 (0.141039)  time: 0.667481  data: 0.000202  max mem: 6213
+Epoch: [1/3]  [ 60/379]  eta: 0:03:54  loss: 9.179868 (9.537306)  lr: 0.000464 (0.000466)  wd: 0.152325 (0.143307)  time: 0.664655  data: 0.000203  max mem: 6213
+Epoch: [1/3]  [ 70/379]  eta: 0:03:43  loss: 8.921491 (9.440673)  lr: 0.000461 (0.000465)  wd: 0.156959 (0.145592)  time: 0.662098  data: 0.000199  max mem: 6213
+Epoch: [1/3]  [ 80/379]  eta: 0:03:34  loss: 8.763507 (9.343247)  lr: 0.000459 (0.000464)  wd: 0.161641 (0.147893)  time: 0.661446  data: 0.000202  max mem: 6213
+Epoch: [1/3]  [ 90/379]  eta: 0:03:25  loss: 8.602513 (9.228647)  lr: 0.000456 (0.000463)  wd: 0.166367 (0.150211)  time: 0.660287  data: 0.000201  max mem: 6213
+Epoch: [1/3]  [100/379]  eta: 0:03:16  loss: 8.364709 (9.127496)  lr: 0.000452 (0.000462)  wd: 0.171135 (0.152544)  time: 0.660073  data: 0.000202  max mem: 6213
+Epoch: [1/3]  [110/379]  eta: 0:03:08  loss: 8.194665 (9.021247)  lr: 0.000449 (0.000461)  wd: 0.175940 (0.154891)  time: 0.660216  data: 0.000206  max mem: 6213
+Epoch: [1/3]  [120/379]  eta: 0:03:00  loss: 7.770945 (8.911743)  lr: 0.000444 (0.000459)  wd: 0.180778 (0.157252)  time: 0.659286  data: 0.000203  max mem: 6213
+Epoch: [1/3]  [130/379]  eta: 0:02:52  loss: 7.561093 (8.798312)  lr: 0.000440 (0.000458)  wd: 0.185646 (0.159625)  time: 0.657051  data: 0.000195  max mem: 6213
+Epoch: [1/3]  [140/379]  eta: 0:02:45  loss: 7.246233 (8.679408)  lr: 0.000435 (0.000456)  wd: 0.190541 (0.162009)  time: 0.655061  data: 0.000180  max mem: 6213
+Epoch: [1/3]  [150/379]  eta: 0:02:37  loss: 7.308930 (8.606029)  lr: 0.000430 (0.000454)  wd: 0.195458 (0.164404)  time: 0.657636  data: 0.000176  max mem: 6213
+Epoch: [1/3]  [160/379]  eta: 0:02:30  loss: 7.135678 (8.479752)  lr: 0.000424 (0.000452)  wd: 0.200394 (0.166808)  time: 0.659844  data: 0.000179  max mem: 6213
+Epoch: [1/3]  [170/379]  eta: 0:02:23  loss: 6.890210 (8.400630)  lr: 0.000419 (0.000450)  wd: 0.205344 (0.169222)  time: 0.658677  data: 0.000190  max mem: 6213
+Epoch: [1/3]  [180/379]  eta: 0:02:16  loss: 6.937441 (8.319573)  lr: 0.000412 (0.000448)  wd: 0.210306 (0.171642)  time: 0.656901  data: 0.000187  max mem: 6213
+Epoch: [1/3]  [190/379]  eta: 0:02:09  loss: 6.633772 (8.226355)  lr: 0.000406 (0.000445)  wd: 0.215276 (0.174070)  time: 0.656888  data: 0.000182  max mem: 6213
+Epoch: [1/3]  [200/379]  eta: 0:02:02  loss: 6.558825 (8.132467)  lr: 0.000399 (0.000443)  wd: 0.220249 (0.176504)  time: 0.658056  data: 0.000198  max mem: 6213
+Epoch: [1/3]  [210/379]  eta: 0:01:55  loss: 6.209617 (8.046679)  lr: 0.000392 (0.000440)  wd: 0.225221 (0.178942)  time: 0.657594  data: 0.000189  max mem: 6213
+Epoch: [1/3]  [220/379]  eta: 0:01:48  loss: 6.209617 (7.977121)  lr: 0.000385 (0.000438)  wd: 0.230190 (0.181384)  time: 0.657151  data: 0.000189  max mem: 6213
+Epoch: [1/3]  [230/379]  eta: 0:01:41  loss: 6.356262 (7.909502)  lr: 0.000377 (0.000435)  wd: 0.235151 (0.183830)  time: 0.657906  data: 0.000193  max mem: 6213
+Epoch: [1/3]  [240/379]  eta: 0:01:34  loss: 6.433377 (7.858846)  lr: 0.000370 (0.000432)  wd: 0.240101 (0.186277)  time: 0.659512  data: 0.000190  max mem: 6213
+Epoch: [1/3]  [250/379]  eta: 0:01:27  loss: 6.433377 (7.793212)  lr: 0.000361 (0.000429)  wd: 0.245035 (0.188726)  time: 0.659684  data: 0.000194  max mem: 6213
+Epoch: [1/3]  [260/379]  eta: 0:01:20  loss: 6.104124 (7.741242)  lr: 0.000353 (0.000426)  wd: 0.249950 (0.191175)  time: 0.657988  data: 0.000192  max mem: 6213
+Epoch: [1/3]  [270/379]  eta: 0:01:13  loss: 6.431901 (7.694432)  lr: 0.000345 (0.000423)  wd: 0.254842 (0.193623)  time: 0.660189  data: 0.000192  max mem: 6213
+Epoch: [1/3]  [280/379]  eta: 0:01:06  loss: 6.198987 (7.637800)  lr: 0.000336 (0.000420)  wd: 0.259707 (0.196070)  time: 0.661471  data: 0.000185  max mem: 6213
+Epoch: [1/3]  [290/379]  eta: 0:01:00  loss: 6.130886 (7.593579)  lr: 0.000327 (0.000416)  wd: 0.264543 (0.198514)  time: 0.659074  data: 0.000188  max mem: 6213
+Epoch: [1/3]  [300/379]  eta: 0:00:53  loss: 6.160345 (7.539641)  lr: 0.000318 (0.000413)  wd: 0.269344 (0.200954)  time: 0.660837  data: 0.000202  max mem: 6213
+Epoch: [1/3]  [310/379]  eta: 0:00:46  loss: 6.212906 (7.501085)  lr: 0.000309 (0.000409)  wd: 0.274107 (0.203390)  time: 0.660720  data: 0.000197  max mem: 6213
+Epoch: [1/3]  [320/379]  eta: 0:00:39  loss: 6.310535 (7.462888)  lr: 0.000300 (0.000406)  wd: 0.278830 (0.205820)  time: 0.657617  data: 0.000183  max mem: 6213
+Epoch: [1/3]  [330/379]  eta: 0:00:32  loss: 6.229459 (7.432617)  lr: 0.000291 (0.000402)  wd: 0.283507 (0.208244)  time: 0.657008  data: 0.000187  max mem: 6213
+Epoch: [1/3]  [340/379]  eta: 0:00:26  loss: 6.125196 (7.392999)  lr: 0.000281 (0.000399)  wd: 0.288136 (0.210661)  time: 0.657147  data: 0.000200  max mem: 6213
+Epoch: [1/3]  [350/379]  eta: 0:00:19  loss: 6.039848 (7.355508)  lr: 0.000272 (0.000395)  wd: 0.292712 (0.213070)  time: 0.657129  data: 0.000181  max mem: 6213
+Epoch: [1/3]  [360/379]  eta: 0:00:12  loss: 6.074479 (7.320669)  lr: 0.000262 (0.000391)  wd: 0.297234 (0.215469)  time: 0.653975  data: 0.000120  max mem: 6213
+Epoch: [1/3]  [370/379]  eta: 0:00:06  loss: 6.102072 (7.285054)  lr: 0.000252 (0.000387)  wd: 0.301696 (0.217859)  time: 0.651183  data: 0.000082  max mem: 6213
+Epoch: [1/3]  [378/379]  eta: 0:00:00  loss: 6.197025 (7.257003)  lr: 0.000245 (0.000384)  wd: 0.305221 (0.219763)  time: 0.639510  data: 0.000083  max mem: 6213
+Epoch: [1/3] Total time: 0:04:14 (0.670553 s / it)
+Averaged stats: loss: 6.197025 (7.287392)  lr: 0.000245 (0.000384)  wd: 0.305221 (0.219763)
+Epoch: [2/3]  [  0/379]  eta: 0:27:24  loss: 6.167618 (6.167618)  lr: 0.000235 (0.000235)  wd: 0.310000 (0.310000)  time: 4.338610  data: 3.620030  max mem: 6213
+Epoch: [2/3]  [ 10/379]  eta: 0:06:05  loss: 6.156712 (6.083015)  lr: 0.000230 (0.000230)  wd: 0.312145 (0.312141)  time: 0.989719  data: 0.329274  max mem: 6213
+Epoch: [2/3]  [ 20/379]  eta: 0:04:58  loss: 6.022318 (6.096947)  lr: 0.000224 (0.000225)  wd: 0.314272 (0.314259)  time: 0.655035  data: 0.000190  max mem: 6213
+Epoch: [2/3]  [ 30/379]  eta: 0:04:30  loss: 5.580982 (5.953624)  lr: 0.000215 (0.000220)  wd: 0.318473 (0.316352)  time: 0.658809  data: 0.000172  max mem: 6213
+Epoch: [2/3]  [ 40/379]  eta: 0:04:13  loss: 5.621002 (5.918407)  lr: 0.000205 (0.000216)  wd: 0.322598 (0.318420)  time: 0.660612  data: 0.000176  max mem: 6213
+Epoch: [2/3]  [ 50/379]  eta: 0:04:00  loss: 5.886860 (5.921761)  lr: 0.000195 (0.000211)  wd: 0.326645 (0.320462)  time: 0.659482  data: 0.000192  max mem: 6213
+Epoch: [2/3]  [ 60/379]  eta: 0:03:49  loss: 6.004220 (5.939032)  lr: 0.000186 (0.000206)  wd: 0.330610 (0.322476)  time: 0.661584  data: 0.000197  max mem: 6213
+Epoch: [2/3]  [ 70/379]  eta: 0:03:40  loss: 6.376663 (6.003393)  lr: 0.000176 (0.000201)  wd: 0.334491 (0.324463)  time: 0.665151  data: 0.000202  max mem: 6213
+Epoch: [2/3]  [ 80/379]  eta: 0:03:31  loss: 6.181846 (6.015674)  lr: 0.000167 (0.000196)  wd: 0.338284 (0.326422)  time: 0.664736  data: 0.000203  max mem: 6213
+Epoch: [2/3]  [ 90/379]  eta: 0:03:22  loss: 6.130401 (6.035594)  lr: 0.000158 (0.000192)  wd: 0.341988 (0.328352)  time: 0.661058  data: 0.000196  max mem: 6213
+Epoch: [2/3]  [100/379]  eta: 0:03:14  loss: 6.208980 (6.061618)  lr: 0.000149 (0.000187)  wd: 0.345598 (0.330251)  time: 0.659119  data: 0.000195  max mem: 6213
+Epoch: [2/3]  [110/379]  eta: 0:03:06  loss: 6.208980 (6.058631)  lr: 0.000140 (0.000182)  wd: 0.349112 (0.332121)  time: 0.658568  data: 0.000215  max mem: 6213
+Epoch: [2/3]  [120/379]  eta: 0:02:58  loss: 6.156153 (6.073374)  lr: 0.000131 (0.000178)  wd: 0.352528 (0.333958)  time: 0.661250  data: 0.000211  max mem: 6213
+Epoch: [2/3]  [130/379]  eta: 0:02:51  loss: 6.352075 (6.086034)  lr: 0.000122 (0.000173)  wd: 0.355842 (0.335764)  time: 0.662370  data: 0.000189  max mem: 6213
+Epoch: [2/3]  [140/379]  eta: 0:02:44  loss: 5.867680 (6.051402)  lr: 0.000114 (0.000169)  wd: 0.359053 (0.337538)  time: 0.660660  data: 0.000194  max mem: 6213
+Epoch: [2/3]  [150/379]  eta: 0:02:36  loss: 5.802212 (6.066523)  lr: 0.000106 (0.000165)  wd: 0.362158 (0.339278)  time: 0.659448  data: 0.000191  max mem: 6213
+Epoch: [2/3]  [160/379]  eta: 0:02:29  loss: 5.988248 (6.058983)  lr: 0.000098 (0.000160)  wd: 0.365154 (0.340984)  time: 0.660569  data: 0.000176  max mem: 6213
+Epoch: [2/3]  [170/379]  eta: 0:02:22  loss: 5.988248 (6.060258)  lr: 0.000090 (0.000156)  wd: 0.368039 (0.342656)  time: 0.660562  data: 0.000194  max mem: 6213
+Epoch: [2/3]  [180/379]  eta: 0:02:15  loss: 6.084609 (6.072956)  lr: 0.000083 (0.000152)  wd: 0.370812 (0.344293)  time: 0.656345  data: 0.000197  max mem: 6213
+Epoch: [2/3]  [190/379]  eta: 0:02:08  loss: 5.957573 (6.072994)  lr: 0.000075 (0.000147)  wd: 0.373469 (0.345894)  time: 0.653876  data: 0.000183  max mem: 6213
+Epoch: [2/3]  [200/379]  eta: 0:02:01  loss: 5.949262 (6.068257)  lr: 0.000068 (0.000143)  wd: 0.376009 (0.347459)  time: 0.654184  data: 0.000200  max mem: 6213
+Epoch: [2/3]  [210/379]  eta: 0:01:54  loss: 5.890982 (6.058253)  lr: 0.000062 (0.000139)  wd: 0.378430 (0.348987)  time: 0.655177  data: 0.000205  max mem: 6213
+Epoch: [2/3]  [220/379]  eta: 0:01:47  loss: 6.018157 (6.051507)  lr: 0.000055 (0.000135)  wd: 0.380730 (0.350478)  time: 0.655092  data: 0.000190  max mem: 6213
+Epoch: [2/3]  [230/379]  eta: 0:01:40  loss: 6.217562 (6.065866)  lr: 0.000049 (0.000132)  wd: 0.382907 (0.351932)  time: 0.656550  data: 0.000197  max mem: 6213
+Epoch: [2/3]  [240/379]  eta: 0:01:33  loss: 6.069517 (6.062809)  lr: 0.000044 (0.000128)  wd: 0.384960 (0.353346)  time: 0.658518  data: 0.000211  max mem: 6213
+Epoch: [2/3]  [250/379]  eta: 0:01:26  loss: 6.060231 (6.071949)  lr: 0.000038 (0.000124)  wd: 0.386887 (0.354723)  time: 0.658844  data: 0.000201  max mem: 6213
+Epoch: [2/3]  [260/379]  eta: 0:01:20  loss: 6.109442 (6.071735)  lr: 0.000033 (0.000121)  wd: 0.388686 (0.356059)  time: 0.659189  data: 0.000194  max mem: 6213
+Epoch: [2/3]  [270/379]  eta: 0:01:13  loss: 6.077172 (6.069492)  lr: 0.000028 (0.000117)  wd: 0.390357 (0.357357)  time: 0.660364  data: 0.000173  max mem: 6213
+Epoch: [2/3]  [280/379]  eta: 0:01:06  loss: 6.077172 (6.072307)  lr: 0.000024 (0.000114)  wd: 0.391898 (0.358614)  time: 0.661733  data: 0.000180  max mem: 6213
+Epoch: [2/3]  [290/379]  eta: 0:00:59  loss: 6.055068 (6.067874)  lr: 0.000020 (0.000111)  wd: 0.393308 (0.359831)  time: 0.661046  data: 0.000207  max mem: 6213
+Epoch: [2/3]  [300/379]  eta: 0:00:53  loss: 5.791724 (6.065782)  lr: 0.000016 (0.000107)  wd: 0.394585 (0.361007)  time: 0.658678  data: 0.000202  max mem: 6213
+Epoch: [2/3]  [310/379]  eta: 0:00:46  loss: 5.812590 (6.063769)  lr: 0.000013 (0.000104)  wd: 0.395729 (0.362141)  time: 0.657456  data: 0.000192  max mem: 6213
+Epoch: [2/3]  [320/379]  eta: 0:00:39  loss: 5.960021 (6.057920)  lr: 0.000010 (0.000101)  wd: 0.396739 (0.363234)  time: 0.657431  data: 0.000195  max mem: 6213
+Epoch: [2/3]  [330/379]  eta: 0:00:32  loss: 5.782507 (6.059914)  lr: 0.000008 (0.000098)  wd: 0.397613 (0.364286)  time: 0.659999  data: 0.000201  max mem: 6213
+Epoch: [2/3]  [340/379]  eta: 0:00:26  loss: 5.729138 (6.047809)  lr: 0.000006 (0.000096)  wd: 0.398353 (0.365295)  time: 0.662752  data: 0.000192  max mem: 6213
+Epoch: [2/3]  [350/379]  eta: 0:00:19  loss: 5.813559 (6.053369)  lr: 0.000004 (0.000093)  wd: 0.398956 (0.366261)  time: 0.661018  data: 0.000173  max mem: 6213
+Epoch: [2/3]  [360/379]  eta: 0:00:12  loss: 6.190526 (6.059565)  lr: 0.000003 (0.000091)  wd: 0.399422 (0.367185)  time: 0.656808  data: 0.000121  max mem: 6213
+Epoch: [2/3]  [370/379]  eta: 0:00:06  loss: 5.985041 (6.056394)  lr: 0.000002 (0.000088)  wd: 0.399752 (0.368066)  time: 0.654174  data: 0.000081  max mem: 6213
+Epoch: [2/3]  [378/379]  eta: 0:00:00  loss: 5.889482 (6.057670)  lr: 0.000001 (0.000086)  wd: 0.399917 (0.368740)  time: 0.642238  data: 0.000080  max mem: 6213
+Epoch: [2/3] Total time: 0:04:13 (0.668806 s / it)
+Averaged stats: loss: 5.889482 (6.075477)  lr: 0.000001 (0.000086)  wd: 0.399917 (0.368740)
+compute-gpu-dy-distributed-ml-1:35914:35968 [2] NCCL INFO [Service thread] Connection closed by localRank 2
+compute-gpu-dy-distributed-ml-1:35913:35967 [1] NCCL INFO [Service thread] Connection closed by localRank 1
+compute-gpu-dy-distributed-ml-2:34465:34516 [1] NCCL INFO [Service thread] Connection closed by localRank 1
+compute-gpu-dy-distributed-ml-2:34466:34517 [2] NCCL INFO [Service thread] Connection closed by localRank 2
+compute-gpu-dy-distributed-ml-2:34467:34515 [3] NCCL INFO [Service thread] Connection closed by localRank 3
+compute-gpu-dy-distributed-ml-2:34464:34518 [0] NCCL INFO [Service thread] Connection closed by localRank 0
+compute-gpu-dy-distributed-ml-1:35915:35969 [3] NCCL INFO [Service thread] Connection closed by localRank 3
+compute-gpu-dy-distributed-ml-1:35914:35914 [2] NCCL INFO comm 0x5a888520 rank 2 nranks 8 cudaDev 2 busId 1d0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-2:34466:34466 [2] NCCL INFO comm 0x596dcec0 rank 6 nranks 8 cudaDev 2 busId 1d0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-1:35913:35913 [1] NCCL INFO comm 0x5a54bf70 rank 1 nranks 8 cudaDev 1 busId 1c0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-2:34465:34465 [1] NCCL INFO comm 0x58955740 rank 5 nranks 8 cudaDev 1 busId 1c0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-2:34467:34467 [3] NCCL INFO comm 0x5b29a450 rank 7 nranks 8 cudaDev 3 busId 1e0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-1:35915:35915 [3] NCCL INFO comm 0x5a70c380 rank 3 nranks 8 cudaDev 3 busId 1e0 - Abort COMPLETE
+compute-gpu-dy-distributed-ml-2:34464:34464 [0] NCCL INFO comm 0x59ffa2d0 rank 4 nranks 8 cudaDev 0 busId 1b0 - Abort COMPLETE
+Training time 0:12:54
+compute-gpu-dy-distributed-ml-1:35912:35966 [0] NCCL INFO [Service thread] Connection closed by localRank 0
+compute-gpu-dy-distributed-ml-1:35912:35912 [0] NCCL INFO comm 0x598e5d90 rank 0 nranks 8 cudaDev 0 busId 1b0 - Abort COMPLETE
