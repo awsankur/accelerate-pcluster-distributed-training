@@ -18,4 +18,10 @@ Execute ./1-download-data.sh to download the image data, unzip it, create a S3 b
 7. Better Transformers
 8. Fully Sharded Data Parallel
 
+### FSx
+1. Create data repository association with S3 bucket in FSx console
+2. Use df -h to see usage and availability of FSx filesystem
+3. Monitor FSx throughput from console
+4. [Preload file system](https://docs.aws.amazon.com/fsx/latest/LustreGuide/preload-file-contents-hsm-dra.html)
+
 ### 3. Baseline results 

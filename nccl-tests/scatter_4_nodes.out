@@ -1,0 +1,505 @@
+ 0: # nThread 1 nGpus 1 minBytes 8 maxBytes 2147483648 step: 2(factor) warmup iters: 5 iters: 100 agg iters: 1 validation: 1 graph: 0
+ 0: #
+ 0: # Using devices
+ 0: #  Rank  0 Group  0 Pid  13363 on compute-gpu-dy-distributed-ml-1 device  0 [0x00] Tesla T4
+ 0: #  Rank  1 Group  0 Pid  13364 on compute-gpu-dy-distributed-ml-1 device  1 [0x00] Tesla T4
+ 0: #  Rank  2 Group  0 Pid  13365 on compute-gpu-dy-distributed-ml-1 device  2 [0x00] Tesla T4
+ 0: #  Rank  3 Group  0 Pid  13366 on compute-gpu-dy-distributed-ml-1 device  3 [0x00] Tesla T4
+ 0: #  Rank  4 Group  0 Pid  13240 on compute-gpu-dy-distributed-ml-2 device  0 [0x00] Tesla T4
+ 0: #  Rank  5 Group  0 Pid  13241 on compute-gpu-dy-distributed-ml-2 device  1 [0x00] Tesla T4
+ 0: #  Rank  6 Group  0 Pid  13242 on compute-gpu-dy-distributed-ml-2 device  2 [0x00] Tesla T4
+ 0: #  Rank  7 Group  0 Pid  13243 on compute-gpu-dy-distributed-ml-2 device  3 [0x00] Tesla T4
+ 0: #  Rank  8 Group  0 Pid  10727 on compute-gpu-dy-distributed-ml-3 device  0 [0x00] Tesla T4
+ 0: #  Rank  9 Group  0 Pid  10728 on compute-gpu-dy-distributed-ml-3 device  1 [0x00] Tesla T4
+ 0: #  Rank 10 Group  0 Pid  10729 on compute-gpu-dy-distributed-ml-3 device  2 [0x00] Tesla T4
+ 0: #  Rank 11 Group  0 Pid  10730 on compute-gpu-dy-distributed-ml-3 device  3 [0x00] Tesla T4
+ 0: #  Rank 12 Group  0 Pid  10726 on compute-gpu-dy-distributed-ml-4 device  0 [0x00] Tesla T4
+ 0: #  Rank 13 Group  0 Pid  10727 on compute-gpu-dy-distributed-ml-4 device  1 [0x00] Tesla T4
+ 0: #  Rank 14 Group  0 Pid  10728 on compute-gpu-dy-distributed-ml-4 device  2 [0x00] Tesla T4
+ 0: #  Rank 15 Group  0 Pid  10729 on compute-gpu-dy-distributed-ml-4 device  3 [0x00] Tesla T4
+ 0: compute-gpu-dy-distributed-ml-1:13363:13363 [0] NCCL INFO Bootstrap : Using eth0:10.1.122.203<0>
+ 0: compute-gpu-dy-distributed-ml-1:13363:13363 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+ 0: compute-gpu-dy-distributed-ml-1:13363:13363 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+ 0: compute-gpu-dy-distributed-ml-1:13363:13363 [0] NCCL INFO cudaDriverVersion 12020
+ 0: NCCL version 2.18.3+cuda12.2
+ 4: compute-gpu-dy-distributed-ml-2:13240:13240 [0] NCCL INFO cudaDriverVersion 12020
+ 4: compute-gpu-dy-distributed-ml-2:13240:13240 [0] NCCL INFO Bootstrap : Using eth0:10.1.123.131<0>
+ 4: compute-gpu-dy-distributed-ml-2:13240:13240 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+ 4: compute-gpu-dy-distributed-ml-2:13240:13240 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+12: compute-gpu-dy-distributed-ml-4:10726:10726 [0] NCCL INFO cudaDriverVersion 12020
+12: compute-gpu-dy-distributed-ml-4:10726:10726 [0] NCCL INFO Bootstrap : Using eth0:10.1.42.9<0>
+12: compute-gpu-dy-distributed-ml-4:10726:10726 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+12: compute-gpu-dy-distributed-ml-4:10726:10726 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+ 8: compute-gpu-dy-distributed-ml-3:10727:10727 [0] NCCL INFO cudaDriverVersion 12020
+ 8: compute-gpu-dy-distributed-ml-3:10727:10727 [0] NCCL INFO Bootstrap : Using eth0:10.1.68.5<0>
+ 8: compute-gpu-dy-distributed-ml-3:10727:10727 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+ 8: compute-gpu-dy-distributed-ml-3:10727:10727 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+ 7: compute-gpu-dy-distributed-ml-2:13243:13243 [3] NCCL INFO cudaDriverVersion 12020
+ 7: compute-gpu-dy-distributed-ml-2:13243:13243 [3] NCCL INFO Bootstrap : Using eth0:10.1.123.131<0>
+ 7: compute-gpu-dy-distributed-ml-2:13243:13243 [3] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+ 7: compute-gpu-dy-distributed-ml-2:13243:13243 [3] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+ 2: compute-gpu-dy-distributed-ml-1:13365:13365 [2] NCCL INFO cudaDriverVersion 12020
+ 2: compute-gpu-dy-distributed-ml-1:13365:13365 [2] NCCL INFO Bootstrap : Using eth0:10.1.122.203<0>
+ 2: compute-gpu-dy-distributed-ml-1:13365:13365 [2] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+ 2: compute-gpu-dy-distributed-ml-1:13365:13365 [2] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+ 3: compute-gpu-dy-distributed-ml-1:13366:13366 [3] NCCL INFO cudaDriverVersion 12020
+ 3: compute-gpu-dy-distributed-ml-1:13366:13366 [3] NCCL INFO Bootstrap : Using eth0:10.1.122.203<0>
+ 3: compute-gpu-dy-distributed-ml-1:13366:13366 [3] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+ 3: compute-gpu-dy-distributed-ml-1:13366:13366 [3] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+ 6: compute-gpu-dy-distributed-ml-2:13242:13242 [2] NCCL INFO cudaDriverVersion 12020
+ 6: compute-gpu-dy-distributed-ml-2:13242:13242 [2] NCCL INFO Bootstrap : Using eth0:10.1.123.131<0>
+ 6: compute-gpu-dy-distributed-ml-2:13242:13242 [2] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+ 6: compute-gpu-dy-distributed-ml-2:13242:13242 [2] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+10: compute-gpu-dy-distributed-ml-3:10729:10729 [2] NCCL INFO cudaDriverVersion 12020
+10: compute-gpu-dy-distributed-ml-3:10729:10729 [2] NCCL INFO Bootstrap : Using eth0:10.1.68.5<0>
+ 5: compute-gpu-dy-distributed-ml-2:13241:13241 [1] NCCL INFO cudaDriverVersion 12020
+10: compute-gpu-dy-distributed-ml-3:10729:10729 [2] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+10: compute-gpu-dy-distributed-ml-3:10729:10729 [2] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+ 5: compute-gpu-dy-distributed-ml-2:13241:13241 [1] NCCL INFO Bootstrap : Using eth0:10.1.123.131<0>
+ 5: compute-gpu-dy-distributed-ml-2:13241:13241 [1] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+ 5: compute-gpu-dy-distributed-ml-2:13241:13241 [1] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+14: compute-gpu-dy-distributed-ml-4:10728:10728 [2] NCCL INFO cudaDriverVersion 12020
+14: compute-gpu-dy-distributed-ml-4:10728:10728 [2] NCCL INFO Bootstrap : Using eth0:10.1.42.9<0>
+14: compute-gpu-dy-distributed-ml-4:10728:10728 [2] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+14: compute-gpu-dy-distributed-ml-4:10728:10728 [2] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+ 1: compute-gpu-dy-distributed-ml-1:13364:13364 [1] NCCL INFO cudaDriverVersion 12020
+ 1: compute-gpu-dy-distributed-ml-1:13364:13364 [1] NCCL INFO Bootstrap : Using eth0:10.1.122.203<0>
+ 1: compute-gpu-dy-distributed-ml-1:13364:13364 [1] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+ 1: compute-gpu-dy-distributed-ml-1:13364:13364 [1] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+11: compute-gpu-dy-distributed-ml-3:10730:10730 [3] NCCL INFO cudaDriverVersion 12020
+11: compute-gpu-dy-distributed-ml-3:10730:10730 [3] NCCL INFO Bootstrap : Using eth0:10.1.68.5<0>
+11: compute-gpu-dy-distributed-ml-3:10730:10730 [3] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+11: compute-gpu-dy-distributed-ml-3:10730:10730 [3] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+ 9: compute-gpu-dy-distributed-ml-3:10728:10728 [1] NCCL INFO cudaDriverVersion 12020
+ 9: compute-gpu-dy-distributed-ml-3:10728:10728 [1] NCCL INFO Bootstrap : Using eth0:10.1.68.5<0>
+ 9: compute-gpu-dy-distributed-ml-3:10728:10728 [1] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+ 9: compute-gpu-dy-distributed-ml-3:10728:10728 [1] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+15: compute-gpu-dy-distributed-ml-4:10729:10729 [3] NCCL INFO cudaDriverVersion 12020
+15: compute-gpu-dy-distributed-ml-4:10729:10729 [3] NCCL INFO Bootstrap : Using eth0:10.1.42.9<0>
+15: compute-gpu-dy-distributed-ml-4:10729:10729 [3] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+15: compute-gpu-dy-distributed-ml-4:10729:10729 [3] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+13: compute-gpu-dy-distributed-ml-4:10727:10727 [1] NCCL INFO cudaDriverVersion 12020
+13: compute-gpu-dy-distributed-ml-4:10727:10727 [1] NCCL INFO Bootstrap : Using eth0:10.1.42.9<0>
+13: compute-gpu-dy-distributed-ml-4:10727:10727 [1] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+13: compute-gpu-dy-distributed-ml-4:10727:10727 [1] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO NET/OFI Configuring AWS-specific options
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Using network AWS Libfabric
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO NET/OFI Configuring AWS-specific options
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO Using network AWS Libfabric
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO NET/OFI Configuring AWS-specific options
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Using network AWS Libfabric
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO NET/OFI Configuring AWS-specific options
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Using network AWS Libfabric
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO NET/OFI Configuring AWS-specific options
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO Using network AWS Libfabric
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO NET/OFI Configuring AWS-specific options
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO Using network AWS Libfabric
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO NET/OFI Configuring AWS-specific options
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO Using network AWS Libfabric
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO NET/OFI Configuring AWS-specific options
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO Using network AWS Libfabric
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO NET/OFI Configuring AWS-specific options
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO Using network AWS Libfabric
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO NET/OFI Configuring AWS-specific options
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO Using network AWS Libfabric
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO NET/OFI Configuring AWS-specific options
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO Using network AWS Libfabric
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO NET/OFI Configuring AWS-specific options
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO Using network AWS Libfabric
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO NET/OFI Configuring AWS-specific options
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO Using network AWS Libfabric
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO NET/OFI Configuring AWS-specific options
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO Using network AWS Libfabric
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO NET/OFI Configuring AWS-specific options
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO Using network AWS Libfabric
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO NET/OFI Using aws-ofi-nccl 1.5.0aws
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO NET/OFI Configuring AWS-specific options
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO NET/OFI Selected Provider is efa (found 1 nics)
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO Using network AWS Libfabric
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO comm 0x55fb641131f0 rank 15 nranks 16 cudaDev 3 nvmlDev 3 busId 1e0 commId 0x782b01d0e6b8ca5d - Init START
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO comm 0x561d8b1afdc0 rank 0 nranks 16 cudaDev 0 nvmlDev 0 busId 1b0 commId 0x782b01d0e6b8ca5d - Init START
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO comm 0x55781d822700 rank 1 nranks 16 cudaDev 1 nvmlDev 1 busId 1c0 commId 0x782b01d0e6b8ca5d - Init START
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO comm 0x55cc6d0197a0 rank 2 nranks 16 cudaDev 2 nvmlDev 2 busId 1d0 commId 0x782b01d0e6b8ca5d - Init START
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO comm 0x555a452615a0 rank 3 nranks 16 cudaDev 3 nvmlDev 3 busId 1e0 commId 0x782b01d0e6b8ca5d - Init START
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO comm 0x5588f97206b0 rank 4 nranks 16 cudaDev 0 nvmlDev 0 busId 1b0 commId 0x782b01d0e6b8ca5d - Init START
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO comm 0x55d1d9cb2bd0 rank 8 nranks 16 cudaDev 0 nvmlDev 0 busId 1b0 commId 0x782b01d0e6b8ca5d - Init START
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO comm 0x556bd121e4c0 rank 5 nranks 16 cudaDev 1 nvmlDev 1 busId 1c0 commId 0x782b01d0e6b8ca5d - Init START
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO comm 0x5584f9c25200 rank 9 nranks 16 cudaDev 1 nvmlDev 1 busId 1c0 commId 0x782b01d0e6b8ca5d - Init START
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO comm 0x560997271ff0 rank 6 nranks 16 cudaDev 2 nvmlDev 2 busId 1d0 commId 0x782b01d0e6b8ca5d - Init START
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO comm 0x55a6547d9330 rank 7 nranks 16 cudaDev 3 nvmlDev 3 busId 1e0 commId 0x782b01d0e6b8ca5d - Init START
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO comm 0x564059320450 rank 10 nranks 16 cudaDev 2 nvmlDev 2 busId 1d0 commId 0x782b01d0e6b8ca5d - Init START
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO comm 0x5594f414b1f0 rank 11 nranks 16 cudaDev 3 nvmlDev 3 busId 1e0 commId 0x782b01d0e6b8ca5d - Init START
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO comm 0x555cdcfd6610 rank 12 nranks 16 cudaDev 0 nvmlDev 0 busId 1b0 commId 0x782b01d0e6b8ca5d - Init START
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO comm 0x55ad78f25250 rank 13 nranks 16 cudaDev 1 nvmlDev 1 busId 1c0 commId 0x782b01d0e6b8ca5d - Init START
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO comm 0x564640b71530 rank 14 nranks 16 cudaDev 2 nvmlDev 2 busId 1d0 commId 0x782b01d0e6b8ca5d - Init START
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO NVLS multicast support is not available on dev 2
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO NVLS multicast support is not available on dev 3
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO NVLS multicast support is not available on dev 0
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO NVLS multicast support is not available on dev 0
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO NVLS multicast support is not available on dev 1
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO NVLS multicast support is not available on dev 1
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO NVLS multicast support is not available on dev 2
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO NVLS multicast support is not available on dev 3
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO NVLS multicast support is not available on dev 1
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO NVLS multicast support is not available on dev 3
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO NVLS multicast support is not available on dev 0
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO NVLS multicast support is not available on dev 2
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO NVLS multicast support is not available on dev 3
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO NVLS multicast support is not available on dev 2
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO NVLS multicast support is not available on dev 1
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO NVLS multicast support is not available on dev 0
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Channel 00/02 :    0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Channel 01/02 :    0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Trees [0] 1/8/-1->0->-1 [1] 1/-1/-1->0->4
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO P2P Chunksize set to 131072
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] 2/-1/-1->1->0
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO P2P Chunksize set to 131072
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/-1/-1->2->1
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO P2P Chunksize set to 131072
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO Trees [0] -1/-1/-1->3->2 [1] -1/-1/-1->3->2
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO P2P Chunksize set to 131072
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO Trees [0] 11/-1/-1->10->9 [1] 11/-1/-1->10->9
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO P2P Chunksize set to 131072
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO Trees [0] 15/-1/-1->14->13 [1] 15/-1/-1->14->13
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO P2P Chunksize set to 131072
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO Trees [0] 6/-1/-1->5->4 [1] 6/8/-1->5->4
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO P2P Chunksize set to 131072
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO Trees [0] -1/-1/-1->11->10 [1] -1/-1/-1->11->10
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO P2P Chunksize set to 131072
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO Trees [0] 10/4/-1->9->8 [1] 10/-1/-1->9->8
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO P2P Chunksize set to 131072
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Trees [0] 9/12/-1->8->0 [1] 9/-1/-1->8->5
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO P2P Chunksize set to 131072
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO Trees [0] -1/-1/-1->15->14 [1] -1/-1/-1->15->14
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO P2P Chunksize set to 131072
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO Trees [0] 14/-1/-1->13->12 [1] 14/-1/-1->13->12
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO Trees [0] 13/-1/-1->12->8 [1] 13/4/-1->12->-1
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO P2P Chunksize set to 131072
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] -1/-1/-1->7->6
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO P2P Chunksize set to 131072
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO P2P Chunksize set to 131072
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Trees [0] 5/-1/-1->4->9 [1] 5/0/-1->4->12
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO P2P Chunksize set to 131072
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 7/-1/-1->6->5
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO P2P Chunksize set to 131072
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO Channel 00 : 6[2] -> 7[3] via SHM/direct/direct
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO Channel 01 : 6[2] -> 7[3] via SHM/direct/direct
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO Channel 00 : 2[2] -> 3[3] via SHM/direct/direct
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO Channel 00 : 1[1] -> 2[2] via SHM/direct/direct
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO Channel 01 : 2[2] -> 3[3] via SHM/direct/direct
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO Channel 01 : 1[1] -> 2[2] via SHM/direct/direct
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO Channel 00 : 10[2] -> 11[3] via SHM/direct/direct
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO Channel 00 : 5[1] -> 6[2] via SHM/direct/direct
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO Channel 01 : 10[2] -> 11[3] via SHM/direct/direct
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO Channel 01 : 5[1] -> 6[2] via SHM/direct/direct
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO Channel 00 : 14[2] -> 15[3] via SHM/direct/direct
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO Channel 00 : 13[1] -> 14[2] via SHM/direct/direct
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO Channel 00 : 9[1] -> 10[2] via SHM/direct/direct
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO Channel 01 : 14[2] -> 15[3] via SHM/direct/direct
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO Channel 01 : 13[1] -> 14[2] via SHM/direct/direct
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO Channel 01 : 9[1] -> 10[2] via SHM/direct/direct
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO Channel 00/0 : 3[3] -> 4[0] [send] via NET/AWS Libfabric/0
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO Channel 01/0 : 3[3] -> 4[0] [send] via NET/AWS Libfabric/0
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO Channel 00/0 : 7[3] -> 8[0] [send] via NET/AWS Libfabric/0
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO Channel 01/0 : 7[3] -> 8[0] [send] via NET/AWS Libfabric/0
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO Connected all rings
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO Channel 00/0 : 11[3] -> 12[0] [send] via NET/AWS Libfabric/0
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO Channel 01/0 : 11[3] -> 12[0] [send] via NET/AWS Libfabric/0
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO Connected all rings
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO Channel 00/0 : 15[3] -> 0[0] [send] via NET/AWS Libfabric/0
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO Channel 01/0 : 15[3] -> 0[0] [send] via NET/AWS Libfabric/0
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO Connected all rings
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO Connected all rings
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO Channel 00 : 2[2] -> 1[1] via SHM/direct/direct
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO Channel 01 : 2[2] -> 1[1] via SHM/direct/direct
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO Channel 00 : 6[2] -> 5[1] via SHM/direct/direct
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO Channel 01 : 6[2] -> 5[1] via SHM/direct/direct
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO Channel 00 : 14[2] -> 13[1] via SHM/direct/direct
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO Channel 01 : 14[2] -> 13[1] via SHM/direct/direct
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO Channel 00 : 10[2] -> 9[1] via SHM/direct/direct
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO Channel 01 : 10[2] -> 9[1] via SHM/direct/direct
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Channel 00/0 : 15[3] -> 0[0] [receive] via NET/AWS Libfabric/0
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Channel 01/0 : 15[3] -> 0[0] [receive] via NET/AWS Libfabric/0
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Channel 00/0 : 3[3] -> 4[0] [receive] via NET/AWS Libfabric/0
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Channel 00 : 0[0] -> 1[1] via SHM/direct/direct
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Channel 01 : 0[0] -> 1[1] via SHM/direct/direct
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Channel 01/0 : 3[3] -> 4[0] [receive] via NET/AWS Libfabric/0
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Channel 00 : 4[0] -> 5[1] via SHM/direct/direct
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Channel 01 : 4[0] -> 5[1] via SHM/direct/direct
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO Channel 00/0 : 11[3] -> 12[0] [receive] via NET/AWS Libfabric/0
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Channel 00/0 : 7[3] -> 8[0] [receive] via NET/AWS Libfabric/0
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO Channel 01/0 : 11[3] -> 12[0] [receive] via NET/AWS Libfabric/0
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO Channel 00 : 12[0] -> 13[1] via SHM/direct/direct
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Channel 01/0 : 7[3] -> 8[0] [receive] via NET/AWS Libfabric/0
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO Channel 01 : 12[0] -> 13[1] via SHM/direct/direct
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Channel 00 : 8[0] -> 9[1] via SHM/direct/direct
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Channel 01 : 8[0] -> 9[1] via SHM/direct/direct
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO Connected all rings
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO Connected all rings
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO Connected all rings
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO Connected all rings
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO Channel 00 : 1[1] -> 0[0] via SHM/direct/direct
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO Channel 01 : 1[1] -> 0[0] via SHM/direct/direct
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO Channel 00 : 13[1] -> 12[0] via SHM/direct/direct
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO Channel 01 : 13[1] -> 12[0] via SHM/direct/direct
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO Channel 01/0 : 5[1] -> 8[0] [send] via NET/AWS Libfabric/0
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO Channel 00/0 : 4[0] -> 9[1] [receive] via NET/AWS Libfabric/0
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO Connected all rings
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO Channel 00 : 15[3] -> 14[2] via SHM/direct/direct
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO Channel 01 : 15[3] -> 14[2] via SHM/direct/direct
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO Connected all rings
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO Channel 00 : 3[3] -> 2[2] via SHM/direct/direct
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO Channel 01 : 3[3] -> 2[2] via SHM/direct/direct
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO Connected all rings
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO Channel 00 : 7[3] -> 6[2] via SHM/direct/direct
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO Connected all rings
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO Channel 00 : 11[3] -> 10[2] via SHM/direct/direct
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO Channel 01 : 11[3] -> 10[2] via SHM/direct/direct
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO Channel 01 : 7[3] -> 6[2] via SHM/direct/direct
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO Connected all trees
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO NCCL_PROTO set by environment to simple
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO Connected all trees
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO NCCL_PROTO set by environment to simple
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO Connected all trees
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO NCCL_PROTO set by environment to simple
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO Connected all trees
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO NCCL_PROTO set by environment to simple
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO Connected all trees
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO NCCL_PROTO set by environment to simple
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO Connected all trees
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO NCCL_PROTO set by environment to simple
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Connected all rings
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Connected all rings
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Channel 01/0 : 0[0] -> 4[0] [receive] via NET/AWS Libfabric/0
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Connected all rings
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Channel 01/0 : 5[1] -> 8[0] [receive] via NET/AWS Libfabric/0
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Channel 01/0 : 0[0] -> 4[0] [send] via NET/AWS Libfabric/0
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Channel 00/0 : 8[0] -> 12[0] [send] via NET/AWS Libfabric/0
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Channel 00/0 : 4[0] -> 9[1] [send] via NET/AWS Libfabric/0
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Channel 00/0 : 8[0] -> 0[0] [receive] via NET/AWS Libfabric/0
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Channel 00/0 : 0[0] -> 8[0] [send] via NET/AWS Libfabric/0
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Channel 01/0 : 12[0] -> 4[0] [receive] via NET/AWS Libfabric/0
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO Connected all rings
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Channel 01/0 : 4[0] -> 12[0] [send] via NET/AWS Libfabric/0
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO Channel 00/0 : 8[0] -> 12[0] [receive] via NET/AWS Libfabric/0
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO Channel 01/0 : 4[0] -> 12[0] [receive] via NET/AWS Libfabric/0
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO Channel 01/0 : 12[0] -> 4[0] [send] via NET/AWS Libfabric/0
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO Channel 00/0 : 12[0] -> 8[0] [send] via NET/AWS Libfabric/0
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Channel 00/0 : 9[1] -> 4[0] [receive] via NET/AWS Libfabric/0
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Channel 00/0 : 0[0] -> 8[0] [receive] via NET/AWS Libfabric/0
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Channel 00/0 : 8[0] -> 0[0] [send] via NET/AWS Libfabric/0
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Channel 00/0 : 12[0] -> 8[0] [receive] via NET/AWS Libfabric/0
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Channel 01/0 : 8[0] -> 5[1] [send] via NET/AWS Libfabric/0
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO Channel 00/0 : 9[1] -> 4[0] [send] via NET/AWS Libfabric/0
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Channel 01/0 : 4[0] -> 0[0] [receive] via NET/AWS Libfabric/0
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Channel 01/0 : 4[0] -> 0[0] [send] via NET/AWS Libfabric/0
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO Channel 00 : 9[1] -> 8[0] via SHM/direct/direct
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO Channel 01 : 9[1] -> 8[0] via SHM/direct/direct
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO Connected all trees
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO NCCL_PROTO set by environment to simple
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO Connected all trees
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO NCCL_PROTO set by environment to simple
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO Connected all trees
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO NCCL_PROTO set by environment to simple
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO Channel 01/0 : 8[0] -> 5[1] [receive] via NET/AWS Libfabric/0
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO Channel 00 : 5[1] -> 4[0] via SHM/direct/direct
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO Channel 01 : 5[1] -> 4[0] via SHM/direct/direct
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO Connected all trees
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO NCCL_PROTO set by environment to simple
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO Connected all trees
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO NCCL_PROTO set by environment to simple
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+13: compute-gpu-dy-distributed-ml-4:10727:11054 [1] NCCL INFO comm 0x55ad78f25250 rank 13 nranks 16 cudaDev 1 nvmlDev 1 busId 1c0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+14: compute-gpu-dy-distributed-ml-4:10728:11052 [2] NCCL INFO comm 0x564640b71530 rank 14 nranks 16 cudaDev 2 nvmlDev 2 busId 1d0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+15: compute-gpu-dy-distributed-ml-4:10729:11053 [3] NCCL INFO comm 0x55fb641131f0 rank 15 nranks 16 cudaDev 3 nvmlDev 3 busId 1e0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+12: compute-gpu-dy-distributed-ml-4:10726:11051 [0] NCCL INFO comm 0x555cdcfd6610 rank 12 nranks 16 cudaDev 0 nvmlDev 0 busId 1b0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO Connected all trees
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO NCCL_PROTO set by environment to simple
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+ 0: compute-gpu-dy-distributed-ml-1:13363:13692 [0] NCCL INFO comm 0x561d8b1afdc0 rank 0 nranks 16 cudaDev 0 nvmlDev 0 busId 1b0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+ 0: #
+ 0: #                                                              out-of-place                       in-place          
+ 0: #       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+ 0: #        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+ 2: compute-gpu-dy-distributed-ml-1:13365:13693 [2] NCCL INFO comm 0x55cc6d0197a0 rank 2 nranks 16 cudaDev 2 nvmlDev 2 busId 1d0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+ 3: compute-gpu-dy-distributed-ml-1:13366:13694 [3] NCCL INFO comm 0x555a452615a0 rank 3 nranks 16 cudaDev 3 nvmlDev 3 busId 1e0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+ 1: compute-gpu-dy-distributed-ml-1:13364:13695 [1] NCCL INFO comm 0x55781d822700 rank 1 nranks 16 cudaDev 1 nvmlDev 1 busId 1c0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO Connected all trees
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO NCCL_PROTO set by environment to simple
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO Connected all trees
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO NCCL_PROTO set by environment to simple
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO Connected all trees
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO NCCL_PROTO set by environment to simple
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO Connected all trees
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO NCCL_PROTO set by environment to simple
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO 2 coll channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+ 8: compute-gpu-dy-distributed-ml-3:10727:11051 [0] NCCL INFO comm 0x55d1d9cb2bd0 rank 8 nranks 16 cudaDev 0 nvmlDev 0 busId 1b0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+ 9: compute-gpu-dy-distributed-ml-3:10728:11055 [1] NCCL INFO comm 0x5584f9c25200 rank 9 nranks 16 cudaDev 1 nvmlDev 1 busId 1c0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+10: compute-gpu-dy-distributed-ml-3:10729:11053 [2] NCCL INFO comm 0x564059320450 rank 10 nranks 16 cudaDev 2 nvmlDev 2 busId 1d0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+11: compute-gpu-dy-distributed-ml-3:10730:11054 [3] NCCL INFO comm 0x5594f414b1f0 rank 11 nranks 16 cudaDev 3 nvmlDev 3 busId 1e0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+ 4: compute-gpu-dy-distributed-ml-2:13240:13566 [0] NCCL INFO comm 0x5588f97206b0 rank 4 nranks 16 cudaDev 0 nvmlDev 0 busId 1b0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+ 6: compute-gpu-dy-distributed-ml-2:13242:13569 [2] NCCL INFO comm 0x560997271ff0 rank 6 nranks 16 cudaDev 2 nvmlDev 2 busId 1d0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+ 5: compute-gpu-dy-distributed-ml-2:13241:13570 [1] NCCL INFO comm 0x556bd121e4c0 rank 5 nranks 16 cudaDev 1 nvmlDev 1 busId 1c0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+ 7: compute-gpu-dy-distributed-ml-2:13243:13568 [3] NCCL INFO comm 0x55a6547d9330 rank 7 nranks 16 cudaDev 3 nvmlDev 3 busId 1e0 commId 0x782b01d0e6b8ca5d - Init COMPLETE
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00 : 0[0] -> 1[1] via SHM/direct/direct
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01 : 0[0] -> 1[1] via SHM/direct/direct
+ 8: compute-gpu-dy-distributed-ml-3:10727:11067 [0] NCCL INFO Channel 00/1 : 0[0] -> 8[0] [receive] via NET/AWS Libfabric/0/Shared
+ 5: compute-gpu-dy-distributed-ml-2:13241:13583 [1] NCCL INFO Channel 00/1 : 0[0] -> 5[1] [receive] via NET/AWS Libfabric/0/Shared
+ 7: compute-gpu-dy-distributed-ml-2:13243:13585 [3] NCCL INFO Channel 00/1 : 0[0] -> 7[3] [receive] via NET/AWS Libfabric/0/Shared
+12: compute-gpu-dy-distributed-ml-4:10726:11070 [0] NCCL INFO Channel 00/1 : 0[0] -> 12[0] [receive] via NET/AWS Libfabric/0/Shared
+15: compute-gpu-dy-distributed-ml-4:10729:11071 [3] NCCL INFO Channel 00/1 : 0[0] -> 15[3] [receive] via NET/AWS Libfabric/0/Shared
+ 4: compute-gpu-dy-distributed-ml-2:13240:13582 [0] NCCL INFO Channel 00/1 : 0[0] -> 4[0] [receive] via NET/AWS Libfabric/0/Shared
+ 8: compute-gpu-dy-distributed-ml-3:10727:11067 [0] NCCL INFO Channel 01/1 : 0[0] -> 8[0] [receive] via NET/AWS Libfabric/0/Shared
+ 5: compute-gpu-dy-distributed-ml-2:13241:13583 [1] NCCL INFO Channel 01/1 : 0[0] -> 5[1] [receive] via NET/AWS Libfabric/0/Shared
+12: compute-gpu-dy-distributed-ml-4:10726:11070 [0] NCCL INFO Channel 01/1 : 0[0] -> 12[0] [receive] via NET/AWS Libfabric/0/Shared
+ 7: compute-gpu-dy-distributed-ml-2:13243:13585 [3] NCCL INFO Channel 01/1 : 0[0] -> 7[3] [receive] via NET/AWS Libfabric/0/Shared
+15: compute-gpu-dy-distributed-ml-4:10729:11071 [3] NCCL INFO Channel 01/1 : 0[0] -> 15[3] [receive] via NET/AWS Libfabric/0/Shared
+ 4: compute-gpu-dy-distributed-ml-2:13240:13582 [0] NCCL INFO Channel 01/1 : 0[0] -> 4[0] [receive] via NET/AWS Libfabric/0/Shared
+11: compute-gpu-dy-distributed-ml-3:10730:11070 [3] NCCL INFO Channel 00/1 : 0[0] -> 11[3] [receive] via NET/AWS Libfabric/0/Shared
+ 9: compute-gpu-dy-distributed-ml-3:10728:11069 [1] NCCL INFO Channel 00/1 : 0[0] -> 9[1] [receive] via NET/AWS Libfabric/0/Shared
+11: compute-gpu-dy-distributed-ml-3:10730:11070 [3] NCCL INFO Channel 01/1 : 0[0] -> 11[3] [receive] via NET/AWS Libfabric/0/Shared
+ 9: compute-gpu-dy-distributed-ml-3:10728:11069 [1] NCCL INFO Channel 01/1 : 0[0] -> 9[1] [receive] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00 : 0[0] -> 2[2] via SHM/direct/direct
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01 : 0[0] -> 2[2] via SHM/direct/direct
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00 : 0[0] -> 3[3] via SHM/direct/direct
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01 : 0[0] -> 3[3] via SHM/direct/direct
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00/1 : 0[0] -> 4[0] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01/1 : 0[0] -> 4[0] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00/1 : 0[0] -> 5[1] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01/1 : 0[0] -> 5[1] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00/1 : 0[0] -> 6[2] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01/1 : 0[0] -> 6[2] [send] via NET/AWS Libfabric/0/Shared
+14: compute-gpu-dy-distributed-ml-4:10728:11072 [2] NCCL INFO Channel 00/1 : 0[0] -> 14[2] [receive] via NET/AWS Libfabric/0/Shared
+ 6: compute-gpu-dy-distributed-ml-2:13242:13584 [2] NCCL INFO Channel 00/1 : 0[0] -> 6[2] [receive] via NET/AWS Libfabric/0/Shared
+14: compute-gpu-dy-distributed-ml-4:10728:11072 [2] NCCL INFO Channel 01/1 : 0[0] -> 14[2] [receive] via NET/AWS Libfabric/0/Shared
+13: compute-gpu-dy-distributed-ml-4:10727:11069 [1] NCCL INFO Channel 00/1 : 0[0] -> 13[1] [receive] via NET/AWS Libfabric/0/Shared
+ 6: compute-gpu-dy-distributed-ml-2:13242:13584 [2] NCCL INFO Channel 01/1 : 0[0] -> 6[2] [receive] via NET/AWS Libfabric/0/Shared
+13: compute-gpu-dy-distributed-ml-4:10727:11069 [1] NCCL INFO Channel 01/1 : 0[0] -> 13[1] [receive] via NET/AWS Libfabric/0/Shared
+10: compute-gpu-dy-distributed-ml-3:10729:11068 [2] NCCL INFO Channel 00/1 : 0[0] -> 10[2] [receive] via NET/AWS Libfabric/0/Shared
+10: compute-gpu-dy-distributed-ml-3:10729:11068 [2] NCCL INFO Channel 01/1 : 0[0] -> 10[2] [receive] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00/1 : 0[0] -> 7[3] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01/1 : 0[0] -> 7[3] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00/1 : 0[0] -> 8[0] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01/1 : 0[0] -> 8[0] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00/1 : 0[0] -> 9[1] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01/1 : 0[0] -> 9[1] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00/1 : 0[0] -> 10[2] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01/1 : 0[0] -> 10[2] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00/1 : 0[0] -> 11[3] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01/1 : 0[0] -> 11[3] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00/1 : 0[0] -> 12[0] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01/1 : 0[0] -> 12[0] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00/1 : 0[0] -> 13[1] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01/1 : 0[0] -> 13[1] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00/1 : 0[0] -> 14[2] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01/1 : 0[0] -> 14[2] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 00/1 : 0[0] -> 15[3] [send] via NET/AWS Libfabric/0/Shared
+ 0: compute-gpu-dy-distributed-ml-1:13363:13708 [0] NCCL INFO Channel 01/1 : 0[0] -> 15[3] [send] via NET/AWS Libfabric/0/Shared
+ 0:            0             0     float    none       0     0.16    0.00    0.00      0     0.15    0.00    0.00      0
+ 0:            0             0     float    none       0     0.14    0.00    0.00      0     0.13    0.00    0.00      0
+ 0:            0             0     float    none       0     0.17    0.00    0.00      0     0.13    0.00    0.00      0
+ 0:           64             1     float    none       0    86.19    0.00    0.00      0    86.15    0.00    0.00      0
+ 0:          128             2     float    none       0    82.22    0.00    0.00      0    76.08    0.00    0.00      0
+ 0:          256             4     float    none       0    76.70    0.00    0.00      0    86.54    0.00    0.00      0
+ 0:          512             8     float    none       0    87.01    0.01    0.01      0    82.43    0.01    0.01      0
+ 0:         1024            16     float    none       0    74.90    0.01    0.01      0    75.70    0.01    0.01      0
+ 0:         2048            32     float    none       0    75.54    0.03    0.03      0    75.19    0.03    0.03      0
+ 0:         4096            64     float    none       0    76.04    0.05    0.05      0    76.51    0.05    0.05      0
+ 0:         8192           128     float    none       0    147.5    0.06    0.05      0    86.91    0.09    0.09      0
+ 0:        16384           256     float    none       0    86.08    0.19    0.18      0    76.47    0.21    0.20      0
+ 0:        32768           512     float    none       0    80.22    0.41    0.38      0    78.04    0.42    0.39      0
+ 0:        65536          1024     float    none       0    84.01    0.78    0.73      0    83.70    0.78    0.73      0
+ 0:       131072          2048     float    none       0    166.4    0.79    0.74      0    117.9    1.11    1.04      0
+ 0:       262144          4096     float    none       0    120.5    2.17    2.04      0    114.3    2.29    2.15      0
+ 0:       524288          8192     float    none       0    218.8    2.40    2.25      0    219.5    2.39    2.24      0
+ 0:      1048576         16384     float    none       0    361.4    2.90    2.72      0    291.4    3.60    3.37      0
+ 0:      2097152         32768     float    none       0    470.8    4.45    4.18      0    469.4    4.47    4.19      0
+ 0:      4194304         65536     float    none       0    870.4    4.82    4.52      0    853.8    4.91    4.61      0
+ 0:      8388608        131072     float    none       0   1553.4    5.40    5.06      0   1541.0    5.44    5.10      0
+ 0:     16777216        262144     float    none       0   2953.2    5.68    5.33      0   2952.3    5.68    5.33      0
+ 0:     33554432        524288     float    none       0   5772.6    5.81    5.45      0   5831.0    5.75    5.39      0
+ 0:     67108864       1048576     float    none       0    11275    5.95    5.58      0    11305    5.94    5.57      0
+ 0:    134217728       2097152     float    none       0    22294    6.02    5.64      0    22318    6.01    5.64      0
+ 0:    268435456       4194304     float    none       0    44394    6.05    5.67      0    44345    6.05    5.67      0
+ 0:    536870912       8388608     float    none       0    88308    6.08    5.70      0    88397    6.07    5.69      0
+ 0:   1073741824      16777216     float    none       0   176679    6.08    5.70      0   176354    6.09    5.71      0
+ 0:   2147483648      33554432     float    none       0   352085    6.10    5.72      0   351994    6.10    5.72      0
+ 2: compute-gpu-dy-distributed-ml-1:13365:13365 [2] NCCL INFO comm 0x55cc6d0197a0 rank 2 nranks 16 cudaDev 2 busId 1d0 - Destroy COMPLETE
+ 6: compute-gpu-dy-distributed-ml-2:13242:13242 [2] NCCL INFO comm 0x560997271ff0 rank 6 nranks 16 cudaDev 2 busId 1d0 - Destroy COMPLETE
+10: compute-gpu-dy-distributed-ml-3:10729:10729 [2] NCCL INFO comm 0x564059320450 rank 10 nranks 16 cudaDev 2 busId 1d0 - Destroy COMPLETE
+14: compute-gpu-dy-distributed-ml-4:10728:10728 [2] NCCL INFO comm 0x564640b71530 rank 14 nranks 16 cudaDev 2 busId 1d0 - Destroy COMPLETE
+ 1: compute-gpu-dy-distributed-ml-1:13364:13364 [1] NCCL INFO comm 0x55781d822700 rank 1 nranks 16 cudaDev 1 busId 1c0 - Destroy COMPLETE
+ 3: compute-gpu-dy-distributed-ml-1:13366:13366 [3] NCCL INFO comm 0x555a452615a0 rank 3 nranks 16 cudaDev 3 busId 1e0 - Destroy COMPLETE
+13: compute-gpu-dy-distributed-ml-4:10727:10727 [1] NCCL INFO comm 0x55ad78f25250 rank 13 nranks 16 cudaDev 1 busId 1c0 - Destroy COMPLETE
+11: compute-gpu-dy-distributed-ml-3:10730:10730 [3] NCCL INFO comm 0x5594f414b1f0 rank 11 nranks 16 cudaDev 3 busId 1e0 - Destroy COMPLETE
+ 7: compute-gpu-dy-distributed-ml-2:13243:13243 [3] NCCL INFO comm 0x55a6547d9330 rank 7 nranks 16 cudaDev 3 busId 1e0 - Destroy COMPLETE
+15: compute-gpu-dy-distributed-ml-4:10729:10729 [3] NCCL INFO comm 0x55fb641131f0 rank 15 nranks 16 cudaDev 3 busId 1e0 - Destroy COMPLETE
+ 5: compute-gpu-dy-distributed-ml-2:13241:13241 [1] NCCL INFO comm 0x556bd121e4c0 rank 5 nranks 16 cudaDev 1 busId 1c0 - Destroy COMPLETE
+ 9: compute-gpu-dy-distributed-ml-3:10728:10728 [1] NCCL INFO comm 0x5584f9c25200 rank 9 nranks 16 cudaDev 1 busId 1c0 - Destroy COMPLETE
+ 4: compute-gpu-dy-distributed-ml-2:13240:13240 [0] NCCL INFO comm 0x5588f97206b0 rank 4 nranks 16 cudaDev 0 busId 1b0 - Destroy COMPLETE
+12: compute-gpu-dy-distributed-ml-4:10726:10726 [0] NCCL INFO comm 0x555cdcfd6610 rank 12 nranks 16 cudaDev 0 busId 1b0 - Destroy COMPLETE
+ 8: compute-gpu-dy-distributed-ml-3:10727:10727 [0] NCCL INFO comm 0x55d1d9cb2bd0 rank 8 nranks 16 cudaDev 0 busId 1b0 - Destroy COMPLETE
+ 0: compute-gpu-dy-distributed-ml-1:13363:13363 [0] NCCL INFO comm 0x561d8b1afdc0 rank 0 nranks 16 cudaDev 0 busId 1b0 - Destroy COMPLETE
+ 0: # Out of bounds values : 0 OK
+ 0: # Avg bus bandwidth    : 2.35635 
+ 0: #
+ 0: 

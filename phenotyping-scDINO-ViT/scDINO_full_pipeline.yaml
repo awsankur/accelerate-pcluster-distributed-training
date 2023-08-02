@@ -1,7 +1,7 @@
 meta:
   name_of_run: "scDino_pcluster_full_0"
   output_dir: "/fsx/outputdir"
-  dataset_dir: "/fsx/data"
+  dataset_dir: "/fsx/fsx"
   folder_depth_for_labels: 0 
   train_datasetsplit_fraction: 0.8
   seed: 40
@@ -16,7 +16,7 @@ train_scDINO:
   epochs: 3
   saveckp_freq: 1
   num_gpus: 4
-  nnodes: 2
+  nnodes: 3
   batch_size_per_gpu: 30
   num_workers: 16
   dist_url: "env://"

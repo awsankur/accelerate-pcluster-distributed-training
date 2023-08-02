@@ -1,0 +1,77 @@
+2: [compute-gpu-dy-distributed-ml-1:11547] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+3: [compute-gpu-dy-distributed-ml-1:11548] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+0: [compute-gpu-dy-distributed-ml-1:11545] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+1: [compute-gpu-dy-distributed-ml-1:11546] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+6: [compute-gpu-dy-distributed-ml-2:11438] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+7: [compute-gpu-dy-distributed-ml-2:11439] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+4: [compute-gpu-dy-distributed-ml-2:11436] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+5: [compute-gpu-dy-distributed-ml-2:11437] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+2: libfabric:11547:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+2: libfabric:11547:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+5: libfabric:11437:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+5: libfabric:11437:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+1: libfabric:11546:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+1: libfabric:11546:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+0: libfabric:11545:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+0: libfabric:11545:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+3: libfabric:11548:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+3: libfabric:11548:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+7: libfabric:11439:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+7: libfabric:11439:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+4: libfabric:11436:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+4: libfabric:11436:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+6: libfabric:11438:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+6: libfabric:11438:1690925795::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+2: libfabric:11547:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+2: libfabric:11547:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::55:faff:fec3:e45]:0:1029191895
+1: libfabric:11546:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+2: libfabric:11547:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+2: libfabric:11547:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::55:faff:fec3:e45]:1:98784414
+1: libfabric:11546:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::55:faff:fec3:e45]:2:279621171
+0: libfabric:11545:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+3: libfabric:11548:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+0: libfabric:11545:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::55:faff:fec3:e45]:3:873458798
+3: libfabric:11548:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::55:faff:fec3:e45]:4:1885982303
+1: libfabric:11546:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+1: libfabric:11546:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::55:faff:fec3:e45]:5:2060483345
+3: libfabric:11548:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+3: libfabric:11548:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::55:faff:fec3:e45]:6:1667659731
+0: libfabric:11545:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+0: libfabric:11545:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::55:faff:fec3:e45]:7:1437338806
+5: libfabric:11437:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+5: libfabric:11437:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::88:47ff:fe42:dc4b]:0:1787769639
+7: libfabric:11439:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+7: libfabric:11439:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::88:47ff:fe42:dc4b]:1:937307522
+5: libfabric:11437:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+6: libfabric:11438:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+5: libfabric:11437:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::88:47ff:fe42:dc4b]:2:377773364
+4: libfabric:11436:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+6: libfabric:11438:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::88:47ff:fe42:dc4b]:3:915844409
+4: libfabric:11436:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::88:47ff:fe42:dc4b]:4:1323045150
+7: libfabric:11439:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+7: libfabric:11439:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::88:47ff:fe42:dc4b]:5:1695737058
+4: libfabric:11436:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+6: libfabric:11438:1690925796::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+4: libfabric:11436:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::88:47ff:fe42:dc4b]:6:1932554225
+6: libfabric:11438:1690925796::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::88:47ff:fe42:dc4b]:7:1543199619
+0: libfabric:11545:1690925798::efa:core:efa_user_info_should_support_hmem():346<warn> For CUDA and libfabric API version <1.18 EFA cannot support FI_HMEM because the EFA device does not have RDMA support.
+4: libfabric:11436:1690925799::efa:core:efa_user_info_should_support_hmem():346<warn> For CUDA and libfabric API version <1.18 EFA cannot support FI_HMEM because the EFA device does not have RDMA support.
+6: libfabric:11438:1690925799::efa:core:efa_user_info_should_support_hmem():346<warn> For CUDA and libfabric API version <1.18 EFA cannot support FI_HMEM because the EFA device does not have RDMA support.
+3: libfabric:11548:1690925799::efa:core:efa_user_info_should_support_hmem():346<warn> For CUDA and libfabric API version <1.18 EFA cannot support FI_HMEM because the EFA device does not have RDMA support.
+1: libfabric:11546:1690925799::efa:core:efa_user_info_should_support_hmem():346<warn> For CUDA and libfabric API version <1.18 EFA cannot support FI_HMEM because the EFA device does not have RDMA support.
+5: libfabric:11437:1690925799::efa:core:efa_user_info_should_support_hmem():346<warn> For CUDA and libfabric API version <1.18 EFA cannot support FI_HMEM because the EFA device does not have RDMA support.
+7: libfabric:11439:1690925799::efa:core:efa_user_info_should_support_hmem():346<warn> For CUDA and libfabric API version <1.18 EFA cannot support FI_HMEM because the EFA device does not have RDMA support.
+2: libfabric:11547:1690925799::efa:core:efa_user_info_should_support_hmem():346<warn> For CUDA and libfabric API version <1.18 EFA cannot support FI_HMEM because the EFA device does not have RDMA support.
+4: libfabric:11436:1690925799::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+4: libfabric:11436:1690925799::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::88:47ff:fe42:dc4b]:8:1912524532
+0: libfabric:11545:1690925799::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+0: libfabric:11545:1690925799::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::55:faff:fec3:e45]:8:857677709
+3: libfabric:11548:1690925799::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+3: libfabric:11548:1690925799::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::55:faff:fec3:e45]:9:1762226827
+7: libfabric:11439:1690925799::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+7: libfabric:11439:1690925799::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::88:47ff:fe42:dc4b]:9:1368989401
+5: libfabric:11437:1690925800::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+6: libfabric:11438:1690925800::efa:domain:efa_domain_hmem_info_init_cuda():179<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+6: libfabric:11438:1690925800::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::88:47ff:fe42:dc4b]:10:579548860
+5: libfabric:11437:1690925800::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.1 efa endpoint created! address: fi_addr_efa://[fe80::88:47ff:fe42:dc4b]:11:1761969018
+3: libfabric:11548:1690925920::efa:ep_ctrl:efa_rdm_peer_destruct():83<warn> Closing EP with unacked CONNREQs in flight

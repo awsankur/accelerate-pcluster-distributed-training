@@ -2,14 +2,13 @@
 
 #SBATCH --wait-all-nodes=1
 #SBATCH --gres=gpu:4
-#SBATCH --nodes=2
+#SBATCH --nodes=3
 #SBATCH --cpus-per-task=16
 #SBATCH --ntasks-per-node=1
 #SBATCH --exclusive
-#SBATCH --output /apps/aws-distributed-training-workshop-pcluster/head-node-scripts/dino_out_%j.out
-#SBATCH --error /apps/aws-distributed-training-workshop-pcluster/head-node-scripts/dino_err_%j.err
+#SBATCH --output /apps/accelerate-pcluster-distributed-training/phenotyping-scDINO-ViT/dino_out_%j.out
+#SBATCH --error /apps/accelerate-pcluster-distributed-training/phenotyping-scDINO-ViT/dino_err_%j.err
 
-export WORLD_SIZE=8
 
 nodes=( $( scontrol show hostnames $SLURM_JOB_NODELIST ) )
 nodes_array=($nodes)
@@ -28,18 +27,24 @@ echo Node IP: $head_node_ip
 
 export LD_LIBRARY_PATH=/usr/local/lib/:$LD_LIBRARY_PATH
 
-# on your cluster you might need these:
-# set the network interface
-#export NCCL_SOCKET_IFNAME="en,eth,em,bond"
+## Plenty of EFA level variables
+#export FI_EFA_USE_DEVICE_RDMA=1 # use for p4d
+export FI_EFA_FORK_SAFE=1
+# export NCCL_ALGO=Ring
+export FI_LOG_LEVEL=1
+export FI_PROVIDER=efa # change to eth if you want to use ENA for comparisons
+export FI_EFA_ENABLE_SHM_TRANSFER=1
+# https://discuss.pytorch.org/t/nccl-network-is-unreachable-connection-refused-when-initializing-ddp/137352
+# https://github.com/pytorch/pytorch/issues/68893
+#export NCCL_SOCKET_IFNAME=ens
+export NCCL_ASYNC_ERROR_HANDLING=1
+export NCCL_DEBUG=INFO
 
-# uncommet for using IP sockets
-# export NCCL_IB_DISABLE=1
-# export NCCL_P2P_DISABLE=1
 
 source /home/ec2-user/.bashrc
 conda activate pytorch-py38
 
-cd /apps/aws-distributed-training-workshop-pcluster/head-node-scripts/
+cd /apps/accelerate-pcluster-distributed-training/phenotyping-scDINO-ViT/
 
 nnodes=$(yq '.train_scDINO.nnodes' scDINO_full_pipeline.yaml)
 num_gpus=$(yq '.train_scDINO.num_gpus' scDINO_full_pipeline.yaml)

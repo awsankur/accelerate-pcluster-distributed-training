@@ -1,0 +1,40 @@
+WARNING:__main__:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+WARNING:__main__:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+WARNING:__main__:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+libfabric:30394:1691000199::efa:core:efa_user_info_alter_rxr():341<warn> FI_HMEM capability requires RDMA, which this device does not support.
+libfabric:30396:1691000199::efa:core:efa_user_info_alter_rxr():341<warn> FI_HMEM capability requires RDMA, which this device does not support.
+libfabric:30397:1691000199::efa:core:efa_user_info_alter_rxr():341<warn> FI_HMEM capability requires RDMA, which this device does not support.
+libfabric:29166:1691000199::efa:core:efa_user_info_alter_rxr():341<warn> FI_HMEM capability requires RDMA, which this device does not support.
+libfabric:29165:1691000199::efa:core:efa_user_info_alter_rxr():341<warn> FI_HMEM capability requires RDMA, which this device does not support.
+libfabric:29167:1691000199::efa:core:efa_user_info_alter_rxr():341<warn> FI_HMEM capability requires RDMA, which this device does not support.
+libfabric:29168:1691000199::efa:core:efa_user_info_alter_rxr():341<warn> FI_HMEM capability requires RDMA, which this device does not support.
+libfabric:30395:1691000199::efa:core:efa_user_info_alter_rxr():341<warn> FI_HMEM capability requires RDMA, which this device does not support.
+libfabric:22753:1691000199::efa:core:efa_user_info_alter_rxr():341<warn> FI_HMEM capability requires RDMA, which this device does not support.
+libfabric:22751:1691000199::efa:core:efa_user_info_alter_rxr():341<warn> FI_HMEM capability requires RDMA, which this device does not support.
+libfabric:22754:1691000199::efa:core:efa_user_info_alter_rxr():341<warn> FI_HMEM capability requires RDMA, which this device does not support.
+libfabric:22752:1691000199::efa:core:efa_user_info_alter_rxr():341<warn> FI_HMEM capability requires RDMA, which this device does not support.
+libfabric:22751:1691000199::efa:domain:efa_hmem_info_update_cuda():116<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+libfabric:29165:1691000199::efa:domain:efa_hmem_info_update_cuda():116<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+libfabric:30394:1691000199::efa:domain:efa_hmem_info_update_cuda():116<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+libfabric:22751:1691000199::efa:ep_ctrl:rxr_ep_ctrl():999<warn> libfabric 1.17.1 efa endpoint created! address: fi_addr_efa://[fe80::8:dcff:fe92:82d3]:0:419914209
+libfabric:29165:1691000199::efa:ep_ctrl:rxr_ep_ctrl():999<warn> libfabric 1.17.1 efa endpoint created! address: fi_addr_efa://[fe80::34:b4ff:fe2c:9adf]:0:610070366
+libfabric:30394:1691000199::efa:ep_ctrl:rxr_ep_ctrl():999<warn> libfabric 1.17.1 efa endpoint created! address: fi_addr_efa://[fe80::97:80ff:fe01:c4c1]:0:2097906683
+libfabric:30397:1691000199::efa:domain:efa_hmem_info_update_cuda():116<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+libfabric:22754:1691000199::efa:domain:efa_hmem_info_update_cuda():116<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+libfabric:30397:1691000199::efa:ep_ctrl:rxr_ep_ctrl():999<warn> libfabric 1.17.1 efa endpoint created! address: fi_addr_efa://[fe80::97:80ff:fe01:c4c1]:1:1012249408
+libfabric:29168:1691000199::efa:domain:efa_hmem_info_update_cuda():116<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+libfabric:22754:1691000199::efa:ep_ctrl:rxr_ep_ctrl():999<warn> libfabric 1.17.1 efa endpoint created! address: fi_addr_efa://[fe80::8:dcff:fe92:82d3]:1:145213730
+libfabric:29168:1691000199::efa:ep_ctrl:rxr_ep_ctrl():999<warn> libfabric 1.17.1 efa endpoint created! address: fi_addr_efa://[fe80::34:b4ff:fe2c:9adf]:1:1764428286
+libfabric:30395:1691000199::efa:domain:efa_hmem_info_update_cuda():116<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+libfabric:30395:1691000199::efa:ep_ctrl:rxr_ep_ctrl():999<warn> libfabric 1.17.1 efa endpoint created! address: fi_addr_efa://[fe80::97:80ff:fe01:c4c1]:2:1203035835
+libfabric:22752:1691000199::efa:domain:efa_hmem_info_update_cuda():116<warn> Failed to register CUDA buffer with the EFA device, FI_HMEM transfers that require peer to peer support will fail.
+libfabric:22752:1691000199::efa:ep_ctrl:rxr_ep_ctrl():999<warn> libfabric 1.17.1 efa endpoint created! address: fi_addr_efa://[fe80::8:dcff:fe92:82d3]:2:327599294
