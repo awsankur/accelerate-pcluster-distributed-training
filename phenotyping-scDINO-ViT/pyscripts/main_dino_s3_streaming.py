@@ -26,6 +26,10 @@ import torchvision
 import ast
 from catalyst.data import DistributedSamplerWrapper
 
+#S3 streaming
+from awsio.python.lib.io.s3.s3dataset import S3Dataset
+
+
 torchvision_archs = sorted(name for name in torchvision_models.__dict__
     if name.islower() and not name.startswith("__")
     and callable(torchvision_models.__dict__[name]))
@@ -176,6 +180,8 @@ def train_dino(args, save_dir):
     if not args.images_are_RGB:
 
         print('ENTERING CUSTOM DATSET CLASS')
+
+
 
         class Multichannel_dataset(datasets.ImageFolder):
                 def __getitem__(self, idx):
