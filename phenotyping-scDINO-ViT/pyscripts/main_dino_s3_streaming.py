@@ -27,7 +27,8 @@ import ast
 from catalyst.data import DistributedSamplerWrapper
 
 #S3 streaming
-from awsio.python.lib.io.s3.s3dataset import S3Dataset
+from torch.utils.data import IterableDataset
+from awsio.python.lib.io.s3.s3dataset import S3IterableDataset
 
 
 torchvision_archs = sorted(name for name in torchvision_models.__dict__
