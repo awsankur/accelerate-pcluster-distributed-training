@@ -27,7 +27,7 @@ Once a cluster is created, the first step is to make sure GPUs across different 
 ### Storage Strategy
 These are the different places where you can store the training data. However, our recommendation is to store the training data in a FSx for Lustre filesystem.
 #### S3 
-You would need to stream data directly from S3. This approach will not only increase latency but also might lead to limitations in the data type support. For more information, see the [TorchData](https://github.com/pytorch/data) package.
+You would need to stream data directly from S3. This approach will not only increase latency but also might lead to limitations in the data type support. For more information, see the [TorchData](https://github.com/pytorch/data) package. Or the [S3 plugin](https://github.com/aws/amazon-s3-plugin-for-pytorch)
 #### FSx for Lustre
 1. Create data repository association with S3 bucket in FSx console
 2. Use df -h to see usage and availability of FSx filesystem
