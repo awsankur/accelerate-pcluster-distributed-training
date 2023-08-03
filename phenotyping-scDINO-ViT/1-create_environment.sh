@@ -16,7 +16,9 @@ sudo wget -qO /apps/.conda/envs/pytorch-py38/bin/yq https://github.com/mikefarah
 sudo chmod a+x /apps/.conda/envs/pytorch-py38/bin/yq
 
 # S3 streaming
-# https://github.com/aws/amazon-s3-plugin-for-pytorch
+# https://github.com/pytorch/data
+pip install torchdata==0.5.1
 
-aws s3 cp https://aws-s3-plugin.s3.us-west-2.amazonaws.com/binaries/0.0.1/bd37e27/awsio-0.0.1%2Bbd37e27-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl .
+# https://github.com/aws/amazon-s3-plugin-for-pytorch
+#aws s3 cp https://aws-s3-plugin.s3.us-west-2.amazonaws.com/binaries/0.0.1/bd37e27/awsio-0.0.1%2Bbd37e27-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl .
 
