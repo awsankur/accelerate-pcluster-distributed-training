@@ -1,44 +1,44 @@
+import torch
 from torch.utils.data import IterableDataset
-from awsio.python.lib.io.s3.s3dataset import S3IterableDataset
+from awsio.python.lib.io.s3.s3dataset import S3Dataset
+
 from PIL import Image
 import io
 import numpy as np
 from torchvision import transforms
 from tifffile import imread
 
-class ImageS3(IterableDataset):
-    def __init__(self, urls, shuffle_urls=False, transform=None):
-        self.s3_iter_dataset = S3IterableDataset(urls,
-                                                 shuffle_urls)
+class S3ImageSet(S3Dataset):
+    def __init__(self, urls, transform=None):
+        super().__init__(urls)
         self.transform = transform
 
-    def data_generator(self):
-        try:
-            while True:
-                # Based on alphabetical order of files, sequence of label and image may change.
-                label_fname, label_fobj = next(self.s3_iter_dataset_iterator)
-                image_fname, image_fobj = next(self.s3_iter_dataset_iterator)
-                
-                label = int(label_fobj)
-                #path, target = self.samples[idx]
-                image_np= imread(image_fobj)
-                
-                #image_np = Image.open(io.BytesIO(image_fobj)).convert('RGB')
-                
-                # Apply torch vision transforms if provided
-                if self.transform is not None:
-                    image_np = self.transform(image_np)
-                yield image_np, label
+    def __getitem__(self, idx):
 
-        except StopIteration:
-            return
-            
-    def __iter__(self):
-        self.s3_iter_dataset_iterator = iter(self.s3_iter_dataset)
-        return self.data_generator()
+        img_name, img = super(S3ImageSet, self).__getitem__(idx)
         
-    #def set_epoch(self, epoch):
-    #    self.s3_iter_dataset.set_epoch(epoch)
+        img_tmp = io.BytesIO(img)
+
+        #print(img_tmp)
+
+        img = Image.open(io.BytesIO(img))
+
+        print(img_name)
+        print(img)
+
+        #path, target = self.samples[idx]
+
+        #image_np= imread(img_name)
+
+        #img_name, img = super(S3ImageSet, self).__getitem__(idx)
+        # Convert bytes object to image
+        #img = Image.open(io.BytesIO(img)).convert('RGB')
+        
+        # Apply preprocessing functions on data
+        if self.transform is not None:
+            img = self.transform(img)
+        return img, idx
+
 
 # Example Torchvision transforms to apply on data    
 preproc = transforms.Compose([
@@ -47,13 +47,14 @@ preproc = transforms.Compose([
     transforms.Resize((100, 100))
 ])
 
-train_dataset = ImageS3(["s3://pcluster-ml-workshop/DeepPhenotype_PBMC_ImageSet_YSeverin/Training"], transform=preproc)
+train_dataset = S3ImageSet(["s3://pcluster-ml-workshop/DeepPhenotype_PBMC_ImageSet_YSeverin/Training"], transform=preproc)
 
 train_loader = torch.utils.data.DataLoader(train_dataset, num_workers=4, batch_size=32)
 
 for epoch in range(1):
     for i, data in enumerate(train_loader, 0):
-        pass
+        import pdb;pdb.set_trace()
+        #pass
 
 
 
