@@ -35,6 +35,7 @@ You would need to stream data directly from S3. This approach will not only incr
 4. [Preload file system](https://github.com/awsankur/accelerate-pcluster-distributed-training/blob/main/preload-file-system.sh). For more details see [here](https://docs.aws.amazon.com/fsx/latest/LustreGuide/preload-file-contents-hsm-dra.html)
 5. [Release file system](https://github.com/awsankur/accelerate-pcluster-distributed-training/blob/main/release-file-system.sh)- This frees up the space in FSx for Lustre filesystem. You can still load data from the same path in FSx for Lustre filesystem. This is also referred as the lazy loading approach. However, the first epoch will be a bit slower. We noticed that the first epocj was ~3 times slower compared to other epochs. 
 #### NVMe Drives
+Each g4dn.12xlarge instance has upto 900GB of NVMe storage mounted at /local_scratch.
 
 ### PyTorch vs DALI dataloaders
 See [here](https://github.com/awsankur/accelerate-pcluster-distributed-training/tree/main/nvidia-dali) for a comparison of PyTorch vs DALI dataloaders. Average time per epoch can be reduced by upto 95% with Nvidia DALI.
