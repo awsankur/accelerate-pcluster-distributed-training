@@ -31,20 +31,20 @@ Next we show some benchmarking results.
 
 The plot shows almost 50% improvement when just reading the images and almost 95% improvement when resizing and cropping the images. The GPU utilization is 8% when reading images with 7 threads and it increases to 21% when resizing and cropping images. With DALI, the optimum performance was obtained with 7 threads in boh cases. 
 
-<center><img src="images/PyTorch_Dali_per_imp.png" width="80%"/> </br>
+<center><img src="../images/PyTorch_Dali_per_imp.png" width="80%"/> </br>
 </center>
 
-<center><img src="images/PyTorch_Dali.png" width="80%"/> </br>
+<center><img src="../images/PyTorch_Dali.png" width="80%"/> </br>
 </center>
 
 The plot shows average time in seconds per epoch as we increase `num_workers` in the PyTorch Dataloader for two cases i) we just read the images and ii) we resize and center crop the images after reading. As expected, preprocessing the image is about 5 times slower than just reading the image. The plot also shows that after 4 workers, the epoch time does not improve linearly.
 
-<center><img src="images/pytorch_num_workers.png" width="80%"/> </br>
+<center><img src="../images/pytorch_num_workers.png" width="80%"/> </br>
 </center>
 
 Finally, the plot below shows the impact of number of threads when setting up a DALI pipeline.
 
-<center><img src="images/dali_num_threads.png" width="80%"/> </br>
+<center><img src="../images/dali_num_threads.png" width="80%"/> </br>
 </center>
 
 
