@@ -18,13 +18,15 @@
 # model_checkpoint="facebook/esm2_t12_35M_UR50D"
 # model_checkpoint = "facebook/esm2_t6_8M_UR50D"  # 8M params
 
-# torchrun train.py --train_sample_count=50000 --model_id="facebook/esm2_t33_650M_UR50D" --num_epochs=3
+#torchrun --standalone --nnodes=1 --nproc_per_node=8 train_nonSM.py --train_sample_count=500000 --model_id="facebook/esm2_t33_650M_UR50D" --num_epochs=1 --per_device_train_batch_size=32 --per_device_eval_batch_size=32
+
 
 import os
 import argparse
 from datasets import load_from_disk, load_dataset, DatasetDict
 import math
 from timeit import default_timer as timer
+from datetime import timedelta
 import torch
 from torch.optim import AdamW
 from torch.utils.data import DataLoader
@@ -49,8 +51,9 @@ from transformers import (
 import torch.distributed as dist
 from torch.nn.parallel import DistributedDataParallel as DDP
 
-dist.init_process_group("nccl")
-
+dist.init_process_group(
+        backend='nccl', init_method="env://", timeout=timedelta(seconds=300)
+    )
 def parse_args():
     """Parse the arguments."""
     parser = argparse.ArgumentParser()
@@ -176,6 +179,9 @@ def report_metrics(
 def main(args):
 
     run_start = timer()
+    device_id = int(os.environ["LOCAL_RANK"])
+    torch.cuda.set_device(device_id)
+
     if args.seed is not None:
         set_seed(args.seed)
         torch.manual_seed(args.seed)
@@ -192,9 +198,12 @@ def main(args):
     ## Load model
     model = AutoModelForMaskedLM.from_pretrained(args.model_id)
     model.to(device)
-    model = DDP(model, find_unused_parameters=True)
+    #model = DDP(model, find_unused_parameters=True)
     #torch.cuda.set_device(local_rank)
     #model.cuda(local_rank)
+
+    model = DDP(model, device_ids=[device_id])
+
 
     is_root = rank == 0
 
@@ -241,6 +250,7 @@ def main(args):
         collate_fn=data_collator,
         batch_size=args.per_device_train_batch_size,
         sampler=train_sampler,
+        num_workers=2,
         shuffle=False if train_sampler else True,
     )
     eval_loader = DataLoader(
@@ -248,6 +258,7 @@ def main(args):
         collate_fn=data_collator,
         batch_size=args.per_device_eval_batch_size,
         sampler=eval_sampler,
+        num_workers=2,
         shuffle=False if eval_sampler else True,
     )
 
@@ -297,6 +308,7 @@ def main(args):
     completed_steps = 0
     starting_epoch = 0
 
+    
     # Start training loop
     for epoch in range(starting_epoch, args.num_epochs):
         if is_root:
@@ -365,6 +377,10 @@ def main(args):
 
         print("##### Model saved to: ", f"{args.model_dir}/checkpoint.pt")
         print(f"Run completed in {timer() - run_start} sec.")
+
+    
+
+
 
 
 def tokenize_data(examples, tokenizer, sequence_length):
