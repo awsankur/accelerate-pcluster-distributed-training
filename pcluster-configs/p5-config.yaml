@@ -2,9 +2,9 @@ Imds:
   ImdsSupport: v2.0
 Image:
   Os: alinux2
-  CustomAmi: ami-0b548cd2fc3378446
+  CustomAmi: ami-0b548cd2fc3378446 
 HeadNode:
-  InstanceType: m5.8xlarge
+  InstanceType: c6i.8xlarge
   Networking:
     SubnetId: subnet-0442a6e62ecc141f1
   Ssh:
@@ -23,7 +23,7 @@ Scheduling:
   SlurmSettings:
     ScaledownIdletime: 60
   SlurmQueues:
-    - Name: awsankur-p4de-megatron
+    - Name: awsankur-p5-cluster
       CapacityType: ONDEMAND
       Networking:
         SubnetIds:
@@ -41,10 +41,10 @@ Scheduling:
       # CapacityReservationResourceGroupArn if you want to regroup
       # multiple reservations
       CapacityReservationTarget:
-        CapacityReservationId: cr-0aed3d7ec3ff92812
+        CapacityReservationId: cr-06907041bc57e8549
       ComputeResources:
-        - Name: awsankur-p4de-megatron
-          InstanceType: p4de.24xlarge
+        - Name: awsankur-p5-cluster
+          InstanceType: p5.48xlarge
           MinCount: 2 # if min = max then capacity is maintained and will
           MaxCount: 2 # not scale down
           Efa:

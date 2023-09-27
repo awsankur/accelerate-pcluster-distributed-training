@@ -1,23 +1,31 @@
 Imds:
   ImdsSupport: v2.0
 Image:
-  Os: alinux2
-  CustomAmi: ami-0b548cd2fc3378446
+  Os: ubuntu2004
 HeadNode:
-  InstanceType: m5.8xlarge
+  InstanceType: m5.24xlarge
   Networking:
     SubnetId: subnet-0442a6e62ecc141f1
   Ssh:
     KeyName: pcluster-key
   LocalStorage:
     RootVolume:
-      Size: 100
+      Size: 500
       DeleteOnTermination: true # that's your root and /home volume for users
   Iam:
     AdditionalIamPolicies: # grant ECR, SSM and S3 read access
       - Policy: arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore
       - Policy: arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
       - Policy: arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly
+  CustomActions:
+    OnNodeConfigured:
+      Sequence:
+        - Script: >-
+            https://raw.githubusercontent.com/aws-samples/aws-parallelcluster-post-install-scripts/main/docker/postinstall.sh
+        - Script: >-
+            https://raw.githubusercontent.com/aws-samples/aws-parallelcluster-post-install-scripts/main/pyxis/postinstall.sh
+          Args:
+            - /fsx
 Scheduling:
   Scheduler: slurm
   SlurmSettings:
@@ -29,7 +37,16 @@ Scheduling:
         SubnetIds:
           - subnet-02517be9f404f6e12
         PlacementGroup:
-          Enabled: true
+          Enabled: false
+      CustomActions:
+        OnNodeConfigured:
+          Sequence:
+            - Script: >-
+                https://raw.githubusercontent.com/aws-samples/aws-parallelcluster-post-install-scripts/main/docker/postinstall.sh
+            - Script: >-
+                https://raw.githubusercontent.com/aws-samples/aws-parallelcluster-post-install-scripts/main/pyxis/postinstall.sh
+              Args:
+                - /fsx
       ComputeSettings:
         LocalStorage:
           EphemeralVolume:

@@ -2,9 +2,9 @@ Imds:
   ImdsSupport: v2.0
 Image:
   Os: alinux2
-  CustomAmi: ami-0b548cd2fc3378446
+  CustomAmi: ami-0f70b4ebcc9dbd7bd 
 HeadNode:
-  InstanceType: m5.8xlarge
+  InstanceType: c6i.8xlarge
   Networking:
     SubnetId: subnet-0442a6e62ecc141f1
   Ssh:
@@ -23,7 +23,7 @@ Scheduling:
   SlurmSettings:
     ScaledownIdletime: 60
   SlurmQueues:
-    - Name: awsankur-p4de-megatron
+    - Name: awsankur-g5-cluster
       CapacityType: ONDEMAND
       Networking:
         SubnetIds:
@@ -40,23 +40,16 @@ Scheduling:
       # with a targeted ODCRs. You can also use a capacity resource group and
       # CapacityReservationResourceGroupArn if you want to regroup
       # multiple reservations
-      CapacityReservationTarget:
-        CapacityReservationId: cr-0aed3d7ec3ff92812
+      #CapacityReservationTarget:
+      #  CapacityReservationId: cr-06907041bc57e8549
       ComputeResources:
-        - Name: awsankur-p4de-megatron
-          InstanceType: p4de.24xlarge
+        - Name: awsankur-g5-cluster
+          InstanceType: g5.8xlarge
           MinCount: 2 # if min = max then capacity is maintained and will
           MaxCount: 2 # not scale down
           Efa:
             Enabled: true
 SharedStorage:
-  - MountDir: /fsx
-    Name: fsx
-    StorageType: FsxLustre
-    FsxLustreSettings:
-      StorageCapacity: 4800 # size it to your storage and throughput needs
-      PerUnitStorageThroughput: 250 # this can be increased to 500 and 100
-      DeploymentType: PERSISTENT_2
   - Name: SharedEBS
     StorageType: Ebs
     MountDir: /apps # Store your shared apps & scripts here
