@@ -1,0 +1,410 @@
+srun: warning: can't run 1 processes on 2 nodes, setting nnodes to 1
+srun: warning: can't run 1 processes on 2 nodes, setting nnodes to 1
+srun: Job 31 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Job 31 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=31.2
+srun: Step created for StepId=31.3
+0: INFO:composer.cli.launcher:Starting distributed environment on local node for global_rank(8-15)
+0: INFO:composer.cli.launcher:Distributed KV store: tcp://10.1.0.5:17167
+0: INFO:composer.cli.launcher:Launching process for local_rank(0), global_rank(8) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(1), global_rank(9) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(2), global_rank(10) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(3), global_rank(11) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(4), global_rank(12) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(5), global_rank(13) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(6), global_rank(14) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(7), global_rank(15) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Starting distributed environment on local node for global_rank(0-7)
+0: INFO:composer.cli.launcher:Distributed KV store: tcp://10.1.0.5:17167
+0: INFO:composer.cli.launcher:Launching process for local_rank(0), global_rank(0) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(1), global_rank(1) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(2), global_rank(2) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(3), global_rank(3) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(4), global_rank(4) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(5), global_rank(5) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(6), global_rank(6) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: INFO:composer.cli.launcher:Launching process for local_rank(7), global_rank(7) with command(['/usr/bin/python3.10', 'benchmark.py', '--use_ema', '--use_synth_data', '--device_train_microbatch_size', '4'])
+0: libfabric:21195:1695936979::core:core:cuda_hmem_dl_init():425<warn> Failed to dlopen libnvidia-ml.so.  Trying libnvidia-ml.so.1
+0: libfabric:20039:1695936979::core:core:cuda_hmem_dl_init():425<warn> Failed to dlopen libnvidia-ml.so.  Trying libnvidia-ml.so.1
+0: libfabric:21195:1695936979::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+0: libfabric:21195:1695936979::core:core:cuda_hmem_dl_init():425<warn> Failed to dlopen libnvidia-ml.so.  Trying libnvidia-ml.so.1
+0: libfabric:21195:1695936979::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+0: libfabric:21195:1695936979::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.2amzn1.0 efa endpoint created! address: fi_addr_efa://[fe80::43c:acff:fe3a:a8a7]:4:1492285405
+0: libfabric:20039:1695936979::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+0: libfabric:20039:1695936979::core:core:cuda_hmem_dl_init():425<warn> Failed to dlopen libnvidia-ml.so.  Trying libnvidia-ml.so.1
+0: libfabric:20039:1695936979::core:core:cuda_gdrcopy_hmem_init():191<warn> gdrcopy_dl_hmem_init failed!
+0: libfabric:20039:1695936979::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.2amzn1.0 efa endpoint created! address: fi_addr_efa://[fe80::4ea:feff:fe6e:b95]:7:1979310409
+0: libfabric:21195:1695936981::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.2amzn1.0 efa endpoint created! address: fi_addr_efa://[fe80::43c:acff:fe3a:a8a7]:4:1459605529
+0: libfabric:20039:1695936981::efa:ep_ctrl:rxr_ep_ctrl():939<warn> libfabric 1.18.2amzn1.0 efa endpoint created! address: fi_addr_efa://[fe80::4ea:feff:fe6e:b95]:7:1535600315
+0: wandb: Tracking run with wandb version 0.15.11
+0: wandb: W&B syncing is set to `offline` in this directory.  
+0: wandb: Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+0: wandb: WARNING URL not available in offline run
+0:                                                                                                                        ******************************
+0: Config:
+0: enabled_algorithms/EMA: true
+0: node_name: unknown because NODENAME environment variable not set
+0: num_gpus_per_node: 8
+0: num_nodes: 2
+0: rank_zero_seed: 2531470345
+0: 
+0: ******************************
+0:                                                                                                                        ******************************
+0: Config:
+0: enabled_algorithms/EMA: true
+0: node_name: unknown because NODENAME environment variable not set
+0: num_gpus_per_node: 8
+0: num_nodes: 2
+0: rank_zero_seed: 2531470345
+0: 
+0: ******************************
+0: 
+0: 
+0: train          Epoch   0:    0%|                         | 0/48 [00:00<?, ?ba/s]                                        [A
+0: train          Epoch   0:    0%|                         | 0/48 [00:00<?, ?ba/s]                                        [A
+0: train          Epoch   0:    0%|                         | 0/48 [00:25<?, ?ba/s, loss/train/total=0.1584]               [A
+0: train          Epoch   0:    0%|                         | 0/48 [00:25<?, ?ba/s, loss/train/total=0.1584]               [A
+0: train          Epoch   0:    2%|▌                        | 1/48 [00:25<19:52, 25.37s/ba, loss/train/total=0.1584]       [A
+0: train          Epoch   0:    2%|▌                        | 1/48 [00:25<19:52, 25.37s/ba, loss/train/total=0.1584]       [A
+0: train          Epoch   0:    2%|▌                        | 1/48 [00:37<19:52, 25.37s/ba, loss/train/total=0.1996]       [A
+0: train          Epoch   0:    2%|▌                        | 1/48 [00:37<19:52, 25.37s/ba, loss/train/total=0.1996]       [A
+0: train          Epoch   0:    4%|█                        | 2/48 [00:37<13:27, 17.55s/ba, loss/train/total=0.1996]       [A
+0: train          Epoch   0:    4%|█                        | 2/48 [00:37<13:27, 17.55s/ba, loss/train/total=0.1996]       [A
+0: train          Epoch   0:    4%|█                        | 2/48 [00:49<13:27, 17.55s/ba, loss/train/total=0.1649]       [A
+0: train          Epoch   0:    4%|█                        | 2/48 [00:49<13:27, 17.55s/ba, loss/train/total=0.1649]       [A
+0: train          Epoch   0:    6%|█▌                       | 3/48 [00:49<11:15, 15.01s/ba, loss/train/total=0.1649]       [A
+0: train          Epoch   0:    6%|█▌                       | 3/48 [00:49<11:15, 15.01s/ba, loss/train/total=0.1649]       [A
+0: train          Epoch   0:    6%|█▌                       | 3/48 [01:01<11:15, 15.01s/ba, loss/train/total=0.1557]       [A
+0: train          Epoch   0:    6%|█▌                       | 3/48 [01:01<11:15, 15.01s/ba, loss/train/total=0.1557]       [A
+0: train          Epoch   0:    8%|██                       | 4/48 [01:01<10:09, 13.86s/ba, loss/train/total=0.1557]       [A
+0: train          Epoch   0:    8%|██                       | 4/48 [01:01<10:09, 13.86s/ba, loss/train/total=0.1557]       [A
+0: train          Epoch   0:    8%|██                       | 4/48 [01:13<10:09, 13.86s/ba, loss/train/total=0.1566]       [A
+0: train          Epoch   0:    8%|██                       | 4/48 [01:13<10:09, 13.86s/ba, loss/train/total=0.1566]       [A
+0: train          Epoch   0:   10%|██▌                      | 5/48 [01:13<09:27, 13.19s/ba, loss/train/total=0.1566]       [A
+0: train          Epoch   0:   10%|██▌                      | 5/48 [01:13<09:27, 13.19s/ba, loss/train/total=0.1566]       [A
+0: train          Epoch   0:   10%|██▌                      | 5/48 [01:25<09:27, 13.19s/ba, loss/train/total=0.1483]       [A
+0: train          Epoch   0:   10%|██▌                      | 5/48 [01:25<09:27, 13.19s/ba, loss/train/total=0.1483]       [A
+0: train          Epoch   0:   12%|███▏                     | 6/48 [01:25<08:59, 12.83s/ba, loss/train/total=0.1483]       [A
+0: train          Epoch   0:   12%|███▏                     | 6/48 [01:25<08:59, 12.83s/ba, loss/train/total=0.1483]       [A
+0: train          Epoch   0:   12%|███▏                     | 6/48 [01:37<08:59, 12.83s/ba, loss/train/total=0.1564]       [A
+0: train          Epoch   0:   12%|███▏                     | 6/48 [01:37<08:59, 12.83s/ba, loss/train/total=0.1564]       [A
+0: train          Epoch   0:   15%|███▋                     | 7/48 [01:37<08:39, 12.67s/ba, loss/train/total=0.1564]       [A
+0: train          Epoch   0:   15%|███▋                     | 7/48 [01:37<08:39, 12.67s/ba, loss/train/total=0.1564]       [A
+0: train          Epoch   0:   15%|███▋                     | 7/48 [01:50<08:39, 12.67s/ba, loss/train/total=0.1566]       [A
+0: train          Epoch   0:   15%|███▋                     | 7/48 [01:50<08:39, 12.67s/ba, loss/train/total=0.1566]       [A
+0: train          Epoch   0:   17%|████▏                    | 8/48 [01:50<08:22, 12.55s/ba, loss/train/total=0.1566]       [A
+0: train          Epoch   0:   17%|████▏                    | 8/48 [01:50<08:22, 12.55s/ba, loss/train/total=0.1566]       [A
+0: train          Epoch   0:   17%|████▏                    | 8/48 [02:02<08:22, 12.55s/ba, loss/train/total=0.1477]       [A
+0: train          Epoch   0:   17%|████▏                    | 8/48 [02:02<08:22, 12.55s/ba, loss/train/total=0.1477]       [A
+0: train          Epoch   0:   19%|████▋                    | 9/48 [02:02<08:07, 12.50s/ba, loss/train/total=0.1477]       [A
+0: train          Epoch   0:   19%|████▋                    | 9/48 [02:02<08:07, 12.50s/ba, loss/train/total=0.1477]       [A
+0: train          Epoch   0:   19%|████▋                    | 9/48 [02:15<08:07, 12.50s/ba, loss/train/total=0.1524]       [A
+0: train          Epoch   0:   19%|████▋                    | 9/48 [02:15<08:07, 12.50s/ba, loss/train/total=0.1524]       [A
+0: train          Epoch   0:   21%|█████▏                   | 10/48 [02:15<07:53, 12.46s/ba, loss/train/total=0.1524]      [A
+0: train          Epoch   0:   21%|█████▏                   | 10/48 [02:15<07:53, 12.46s/ba, loss/train/total=0.1524]      [A
+0: train          Epoch   0:   21%|█████▏                   | 10/48 [02:27<07:53, 12.46s/ba, loss/train/total=0.1435]      [A
+0: train          Epoch   0:   21%|█████▏                   | 10/48 [02:27<07:53, 12.46s/ba, loss/train/total=0.1435]      [A
+0: train          Epoch   0:   23%|█████▋                   | 11/48 [02:27<07:39, 12.42s/ba, loss/train/total=0.1435]      [A
+0: train          Epoch   0:   23%|█████▋                   | 11/48 [02:27<07:39, 12.42s/ba, loss/train/total=0.1435]      [A
+0: train          Epoch   0:   23%|█████▋                   | 11/48 [02:39<07:39, 12.42s/ba, loss/train/total=0.1548]      [A
+0: train          Epoch   0:   23%|█████▋                   | 11/48 [02:39<07:39, 12.42s/ba, loss/train/total=0.1548]      [A
+0: train          Epoch   0:   25%|██████▎                  | 12/48 [02:39<07:25, 12.36s/ba, loss/train/total=0.1548]      [A
+0: train          Epoch   0:   25%|██████▎                  | 12/48 [02:39<07:25, 12.36s/ba, loss/train/total=0.1548]      [A
+0: train          Epoch   0:   25%|██████▎                  | 12/48 [02:51<07:25, 12.36s/ba, loss/train/total=0.1570]      [A
+0: train          Epoch   0:   25%|██████▎                  | 12/48 [02:51<07:25, 12.36s/ba, loss/train/total=0.1570]      [A
+0: train          Epoch   0:   27%|██████▊                  | 13/48 [02:51<07:08, 12.25s/ba, loss/train/total=0.1570]      [A
+0: train          Epoch   0:   27%|██████▊                  | 13/48 [02:51<07:08, 12.25s/ba, loss/train/total=0.1570]      [A
+0: train          Epoch   0:   27%|██████▊                  | 13/48 [03:03<07:08, 12.25s/ba, loss/train/total=0.1430]      [A
+0: train          Epoch   0:   27%|██████▊                  | 13/48 [03:03<07:08, 12.25s/ba, loss/train/total=0.1430]      [A
+0: train          Epoch   0:   29%|███████▎                 | 14/48 [03:03<06:53, 12.17s/ba, loss/train/total=0.1430]      [A
+0: train          Epoch   0:   29%|███████▎                 | 14/48 [03:03<06:53, 12.17s/ba, loss/train/total=0.1430]      [A
+0: train          Epoch   0:   29%|███████▎                 | 14/48 [03:15<06:53, 12.17s/ba, loss/train/total=0.1499]      [A
+0: train          Epoch   0:   29%|███████▎                 | 14/48 [03:15<06:53, 12.17s/ba, loss/train/total=0.1499]      [A
+0: train          Epoch   0:   31%|███████▊                 | 15/48 [03:15<06:39, 12.12s/ba, loss/train/total=0.1499]      [A
+0: train          Epoch   0:   31%|███████▊                 | 15/48 [03:15<06:39, 12.12s/ba, loss/train/total=0.1499]      [A
+0: train          Epoch   0:   31%|███████▊                 | 15/48 [03:27<06:39, 12.12s/ba, loss/train/total=0.1484]      [A
+0: train          Epoch   0:   31%|███████▊                 | 15/48 [03:27<06:39, 12.12s/ba, loss/train/total=0.1484]      [A
+0: train          Epoch   0:   33%|████████▎                | 16/48 [03:27<06:27, 12.12s/ba, loss/train/total=0.1484]      [A
+0: train          Epoch   0:   33%|████████▎                | 16/48 [03:27<06:27, 12.12s/ba, loss/train/total=0.1484]      [A
+0: train          Epoch   0:   33%|████████▎                | 16/48 [03:39<06:27, 12.12s/ba, loss/train/total=0.1478]      [A
+0: train          Epoch   0:   33%|████████▎                | 16/48 [03:39<06:27, 12.12s/ba, loss/train/total=0.1478]      [A
+0: train          Epoch   0:   35%|████████▊                | 17/48 [03:39<06:15, 12.12s/ba, loss/train/total=0.1478]      [A
+0: train          Epoch   0:   35%|████████▊                | 17/48 [03:39<06:15, 12.12s/ba, loss/train/total=0.1478]      [A
+0: train          Epoch   0:   35%|████████▊                | 17/48 [03:52<06:15, 12.12s/ba, loss/train/total=0.1534]      [A
+0: train          Epoch   0:   35%|████████▊                | 17/48 [03:52<06:15, 12.12s/ba, loss/train/total=0.1534]      [A
+0: train          Epoch   0:   38%|█████████▍               | 18/48 [03:52<06:05, 12.18s/ba, loss/train/total=0.1534]      [A
+0: train          Epoch   0:   38%|█████████▍               | 18/48 [03:52<06:05, 12.18s/ba, loss/train/total=0.1534]      [A
+0: train          Epoch   0:   38%|█████████▍               | 18/48 [04:04<06:05, 12.18s/ba, loss/train/total=0.1525]      [A
+0: train          Epoch   0:   38%|█████████▍               | 18/48 [04:04<06:05, 12.18s/ba, loss/train/total=0.1525]      [A
+0: train          Epoch   0:   40%|█████████▉               | 19/48 [04:04<05:54, 12.23s/ba, loss/train/total=0.1525]      [A
+0: train          Epoch   0:   40%|█████████▉               | 19/48 [04:04<05:54, 12.23s/ba, loss/train/total=0.1525]      [A
+0: train          Epoch   0:   40%|█████████▉               | 19/48 [04:16<05:54, 12.23s/ba, loss/train/total=0.1488]      [A
+0: train          Epoch   0:   40%|█████████▉               | 19/48 [04:16<05:54, 12.23s/ba, loss/train/total=0.1488]      [A
+0: train          Epoch   0:   42%|██████████▍              | 20/48 [04:16<05:44, 12.30s/ba, loss/train/total=0.1488]      [A
+0: train          Epoch   0:   42%|██████████▍              | 20/48 [04:16<05:44, 12.30s/ba, loss/train/total=0.1488]      [A
+0: train          Epoch   0:   42%|██████████▍              | 20/48 [04:29<05:44, 12.30s/ba, loss/train/total=0.1566]      [A
+0: train          Epoch   0:   42%|██████████▍              | 20/48 [04:29<05:44, 12.30s/ba, loss/train/total=0.1566]      [A
+0: train          Epoch   0:   44%|██████████▉              | 21/48 [04:29<05:32, 12.32s/ba, loss/train/total=0.1566]      [A
+0: train          Epoch   0:   44%|██████████▉              | 21/48 [04:29<05:32, 12.32s/ba, loss/train/total=0.1566]      [A
+0: train          Epoch   0:   44%|██████████▉              | 21/48 [04:41<05:32, 12.32s/ba, loss/train/total=0.1464]      [A
+0: train          Epoch   0:   44%|██████████▉              | 21/48 [04:41<05:32, 12.32s/ba, loss/train/total=0.1464]      [A
+0: train          Epoch   0:   46%|███████████▍             | 22/48 [04:41<05:17, 12.22s/ba, loss/train/total=0.1464]      [A
+0: train          Epoch   0:   46%|███████████▍             | 22/48 [04:41<05:17, 12.22s/ba, loss/train/total=0.1464]      [A
+0: train          Epoch   0:   46%|███████████▍             | 22/48 [04:53<05:17, 12.22s/ba, loss/train/total=0.1428]      [A
+0: train          Epoch   0:   46%|███████████▍             | 22/48 [04:53<05:17, 12.22s/ba, loss/train/total=0.1428]      [A
+0: train          Epoch   0:   48%|███████████▉             | 23/48 [04:53<05:03, 12.15s/ba, loss/train/total=0.1428]      [A
+0: train          Epoch   0:   48%|███████████▉             | 23/48 [04:53<05:03, 12.15s/ba, loss/train/total=0.1428]      [A
+0: train          Epoch   0:   48%|███████████▉             | 23/48 [05:05<05:03, 12.15s/ba, loss/train/total=0.1436]      [A
+0: train          Epoch   0:   48%|███████████▉             | 23/48 [05:05<05:03, 12.15s/ba, loss/train/total=0.1436]      [A
+0: train          Epoch   0:   50%|████████████▌            | 24/48 [05:05<04:50, 12.11s/ba, loss/train/total=0.1436]      [A
+0: train          Epoch   0:   50%|████████████▌            | 24/48 [05:05<04:50, 12.11s/ba, loss/train/total=0.1436]      [A
+0: train          Epoch   0:   50%|████████████▌            | 24/48 [05:17<04:50, 12.11s/ba, loss/train/total=0.1547]      [A
+0: train          Epoch   0:   50%|████████████▌            | 24/48 [05:17<04:50, 12.11s/ba, loss/train/total=0.1547]      [A
+0: train          Epoch   0:   52%|█████████████            | 25/48 [05:17<04:38, 12.10s/ba, loss/train/total=0.1547]      [A
+0: train          Epoch   0:   52%|█████████████            | 25/48 [05:17<04:38, 12.10s/ba, loss/train/total=0.1547]      [A
+0: train          Epoch   0:   52%|█████████████            | 25/48 [05:29<04:38, 12.10s/ba, loss/train/total=0.1558]      [A
+0: train          Epoch   0:   52%|█████████████            | 25/48 [05:29<04:38, 12.10s/ba, loss/train/total=0.1558]      [A
+0: train          Epoch   0:   54%|█████████████▌           | 26/48 [05:29<04:25, 12.07s/ba, loss/train/total=0.1558]      [A
+0: train          Epoch   0:   54%|█████████████▌           | 26/48 [05:29<04:25, 12.07s/ba, loss/train/total=0.1558]      [A
+0: train          Epoch   0:   54%|█████████████▌           | 26/48 [05:41<04:25, 12.07s/ba, loss/train/total=0.1520]      [A
+0: train          Epoch   0:   54%|█████████████▌           | 26/48 [05:41<04:25, 12.07s/ba, loss/train/total=0.1520]      [A
+0: train          Epoch   0:   56%|██████████████           | 27/48 [05:41<04:14, 12.14s/ba, loss/train/total=0.1520]      [A
+0: train          Epoch   0:   56%|██████████████           | 27/48 [05:41<04:14, 12.14s/ba, loss/train/total=0.1520]      [A
+0: train          Epoch   0:   56%|██████████████           | 27/48 [05:53<04:14, 12.14s/ba, loss/train/total=0.1506]      [A
+0: train          Epoch   0:   56%|██████████████           | 27/48 [05:53<04:14, 12.14s/ba, loss/train/total=0.1506]      [A
+0: train          Epoch   0:   58%|██████████████▌          | 28/48 [05:53<04:02, 12.11s/ba, loss/train/total=0.1506]      [A
+0: train          Epoch   0:   58%|██████████████▌          | 28/48 [05:53<04:02, 12.11s/ba, loss/train/total=0.1506]      [A
+0: train          Epoch   0:   58%|██████████████▌          | 28/48 [06:06<04:02, 12.11s/ba, loss/train/total=0.1473]      [A
+0: train          Epoch   0:   58%|██████████████▌          | 28/48 [06:06<04:02, 12.11s/ba, loss/train/total=0.1473]      [A
+0: train          Epoch   0:   60%|███████████████          | 29/48 [06:06<03:51, 12.17s/ba, loss/train/total=0.1473]      [A
+0: train          Epoch   0:   60%|███████████████          | 29/48 [06:06<03:51, 12.17s/ba, loss/train/total=0.1473]      [A
+0: train          Epoch   0:   60%|███████████████          | 29/48 [06:18<03:51, 12.17s/ba, loss/train/total=0.1401]      [A
+0: train          Epoch   0:   60%|███████████████          | 29/48 [06:18<03:51, 12.17s/ba, loss/train/total=0.1401]      [A
+0: train          Epoch   0:   62%|███████████████▋         | 30/48 [06:18<03:39, 12.22s/ba, loss/train/total=0.1401]      [A
+0: train          Epoch   0:   62%|███████████████▋         | 30/48 [06:18<03:39, 12.22s/ba, loss/train/total=0.1401]      [A
+0: train          Epoch   0:   62%|███████████████▋         | 30/48 [06:30<03:39, 12.22s/ba, loss/train/total=0.1512]      [A
+0: train          Epoch   0:   62%|███████████████▋         | 30/48 [06:30<03:39, 12.22s/ba, loss/train/total=0.1512]      [A
+0: train          Epoch   0:   65%|████████████████▏        | 31/48 [06:30<03:26, 12.16s/ba, loss/train/total=0.1512]      [A
+0: train          Epoch   0:   65%|████████████████▏        | 31/48 [06:30<03:26, 12.16s/ba, loss/train/total=0.1512]      [A
+0: train          Epoch   0:   65%|████████████████▏        | 31/48 [06:42<03:26, 12.16s/ba, loss/train/total=0.1476]      [A
+0: train          Epoch   0:   65%|████████████████▏        | 31/48 [06:42<03:26, 12.16s/ba, loss/train/total=0.1476]      [A
+0: train          Epoch   0:   67%|████████████████▋        | 32/48 [06:42<03:13, 12.11s/ba, loss/train/total=0.1476]      [A
+0: train          Epoch   0:   67%|████████████████▋        | 32/48 [06:42<03:13, 12.11s/ba, loss/train/total=0.1476]      [A
+0: train          Epoch   0:   67%|████████████████▋        | 32/48 [06:54<03:13, 12.11s/ba, loss/train/total=0.1532]      [A
+0: train          Epoch   0:   67%|████████████████▋        | 32/48 [06:54<03:13, 12.11s/ba, loss/train/total=0.1532]      [A
+0: train          Epoch   0:   69%|█████████████████▏       | 33/48 [06:54<03:01, 12.08s/ba, loss/train/total=0.1532]      [A
+0: train          Epoch   0:   69%|█████████████████▏       | 33/48 [06:54<03:01, 12.08s/ba, loss/train/total=0.1532]      [A
+0: train          Epoch   0:   69%|█████████████████▏       | 33/48 [07:06<03:01, 12.08s/ba, loss/train/total=0.1532]      [A
+0: train          Epoch   0:   69%|█████████████████▏       | 33/48 [07:06<03:01, 12.08s/ba, loss/train/total=0.1532]      [A
+0: train          Epoch   0:   71%|█████████████████▋       | 34/48 [07:06<02:48, 12.06s/ba, loss/train/total=0.1532]      [A
+0: train          Epoch   0:   71%|█████████████████▋       | 34/48 [07:06<02:48, 12.06s/ba, loss/train/total=0.1532]      [A
+0: train          Epoch   0:   71%|█████████████████▋       | 34/48 [07:18<02:48, 12.06s/ba, loss/train/total=0.1510]      [A
+0: train          Epoch   0:   71%|█████████████████▋       | 34/48 [07:18<02:48, 12.06s/ba, loss/train/total=0.1510]      [A
+0: train          Epoch   0:   73%|██████████████████▏      | 35/48 [07:18<02:36, 12.04s/ba, loss/train/total=0.1510]      [A
+0: train          Epoch   0:   73%|██████████████████▏      | 35/48 [07:18<02:36, 12.04s/ba, loss/train/total=0.1510]      [A
+0: train          Epoch   0:   73%|██████████████████▏      | 35/48 [07:30<02:36, 12.04s/ba, loss/train/total=0.1559]      [A
+0: train          Epoch   0:   73%|██████████████████▏      | 35/48 [07:30<02:36, 12.04s/ba, loss/train/total=0.1559]      [A
+0: train          Epoch   0:   75%|██████████████████▊      | 36/48 [07:30<02:24, 12.03s/ba, loss/train/total=0.1559]      [A
+0: train          Epoch   0:   75%|██████████████████▊      | 36/48 [07:30<02:24, 12.03s/ba, loss/train/total=0.1559]      [A
+0: train          Epoch   0:   75%|██████████████████▊      | 36/48 [07:42<02:24, 12.03s/ba, loss/train/total=0.1522]      [A
+0: train          Epoch   0:   75%|██████████████████▊      | 36/48 [07:42<02:24, 12.03s/ba, loss/train/total=0.1522]      [A
+0: train          Epoch   0:   77%|███████████████████▎     | 37/48 [07:42<02:12, 12.03s/ba, loss/train/total=0.1522]      [A
+0: train          Epoch   0:   77%|███████████████████▎     | 37/48 [07:42<02:12, 12.03s/ba, loss/train/total=0.1522]      [A
+0: train          Epoch   0:   77%|███████████████████▎     | 37/48 [07:54<02:12, 12.03s/ba, loss/train/total=0.1463]      [A
+0: train          Epoch   0:   77%|███████████████████▎     | 37/48 [07:54<02:12, 12.03s/ba, loss/train/total=0.1463]      [A
+0: train          Epoch   0:   79%|███████████████████▊     | 38/48 [07:54<02:00, 12.09s/ba, loss/train/total=0.1463]      [A
+0: train          Epoch   0:   79%|███████████████████▊     | 38/48 [07:54<02:00, 12.09s/ba, loss/train/total=0.1463]      [A
+0: train          Epoch   0:   79%|███████████████████▊     | 38/48 [08:06<02:00, 12.09s/ba, loss/train/total=0.1503]      [A
+0: train          Epoch   0:   79%|███████████████████▊     | 38/48 [08:06<02:00, 12.09s/ba, loss/train/total=0.1503]      [A
+0: train          Epoch   0:   81%|████████████████████▎    | 39/48 [08:06<01:49, 12.15s/ba, loss/train/total=0.1503]      [A
+0: train          Epoch   0:   81%|████████████████████▎    | 39/48 [08:06<01:49, 12.15s/ba, loss/train/total=0.1503]      [A
+0: train          Epoch   0:   81%|████████████████████▎    | 39/48 [08:19<01:49, 12.15s/ba, loss/train/total=0.1472]      [A
+0: train          Epoch   0:   81%|████████████████████▎    | 39/48 [08:19<01:49, 12.15s/ba, loss/train/total=0.1472]      [A
+0: train          Epoch   0:   83%|████████████████████▊    | 40/48 [08:19<01:37, 12.19s/ba, loss/train/total=0.1472]      [A
+0: train          Epoch   0:   83%|████████████████████▊    | 40/48 [08:19<01:37, 12.19s/ba, loss/train/total=0.1472]      [A
+0: train          Epoch   0:   83%|████████████████████▊    | 40/48 [08:31<01:37, 12.19s/ba, loss/train/total=0.1476]      [A
+0: train          Epoch   0:   83%|████████████████████▊    | 40/48 [08:31<01:37, 12.19s/ba, loss/train/total=0.1476]      [A
+0: train          Epoch   0:   85%|█████████████████████▎   | 41/48 [08:31<01:25, 12.22s/ba, loss/train/total=0.1476]      [A
+0: train          Epoch   0:   85%|█████████████████████▎   | 41/48 [08:31<01:25, 12.22s/ba, loss/train/total=0.1476]      [A
+0: train          Epoch   0:   85%|█████████████████████▎   | 41/48 [08:43<01:25, 12.22s/ba, loss/train/total=0.1398]      [A
+0: train          Epoch   0:   85%|█████████████████████▎   | 41/48 [08:43<01:25, 12.22s/ba, loss/train/total=0.1398]      [A
+0: train          Epoch   0:   88%|█████████████████████▉   | 42/48 [08:43<01:13, 12.24s/ba, loss/train/total=0.1398]      [A
+0: train          Epoch   0:   88%|█████████████████████▉   | 42/48 [08:43<01:13, 12.24s/ba, loss/train/total=0.1398]      [A
+0: train          Epoch   0:   88%|█████████████████████▉   | 42/48 [08:56<01:13, 12.24s/ba, loss/train/total=0.1487]      [A
+0: train          Epoch   0:   88%|█████████████████████▉   | 42/48 [08:56<01:13, 12.24s/ba, loss/train/total=0.1487]      [A
+0: train          Epoch   0:   90%|██████████████████████▍  | 43/48 [08:56<01:01, 12.26s/ba, loss/train/total=0.1487]      [A
+0: train          Epoch   0:   90%|██████████████████████▍  | 43/48 [08:56<01:01, 12.26s/ba, loss/train/total=0.1487]      [A
+0: train          Epoch   0:   90%|██████████████████████▍  | 43/48 [09:08<01:01, 12.26s/ba, loss/train/total=0.1388]      [A
+0: train          Epoch   0:   90%|██████████████████████▍  | 43/48 [09:08<01:01, 12.26s/ba, loss/train/total=0.1388]      [A
+0: train          Epoch   0:   92%|██████████████████████▉  | 44/48 [09:08<00:49, 12.27s/ba, loss/train/total=0.1388]      [A
+0: train          Epoch   0:   92%|██████████████████████▉  | 44/48 [09:08<00:49, 12.27s/ba, loss/train/total=0.1388]      [A
+0: train          Epoch   0:   92%|██████████████████████▉  | 44/48 [09:20<00:49, 12.27s/ba, loss/train/total=0.1422]      [A
+0: train          Epoch   0:   92%|██████████████████████▉  | 44/48 [09:20<00:49, 12.27s/ba, loss/train/total=0.1422]      [A
+0: train          Epoch   0:   94%|███████████████████████▍ | 45/48 [09:20<00:36, 12.28s/ba, loss/train/total=0.1422]      [A
+0: train          Epoch   0:   94%|███████████████████████▍ | 45/48 [09:20<00:36, 12.28s/ba, loss/train/total=0.1422]      [A
+0: train          Epoch   0:   94%|███████████████████████▍ | 45/48 [09:32<00:36, 12.28s/ba, loss/train/total=0.1497]      [A
+0: train          Epoch   0:   94%|███████████████████████▍ | 45/48 [09:32<00:36, 12.28s/ba, loss/train/total=0.1497]      [A
+0: train          Epoch   0:   96%|███████████████████████▉ | 46/48 [09:33<00:24, 12.28s/ba, loss/train/total=0.1497]      [A
+0: train          Epoch   0:   96%|███████████████████████▉ | 46/48 [09:33<00:24, 12.28s/ba, loss/train/total=0.1497]      [A
+0: train          Epoch   0:   96%|███████████████████████▉ | 46/48 [09:45<00:24, 12.28s/ba, loss/train/total=0.1508]      [A
+0: train          Epoch   0:   96%|███████████████████████▉ | 46/48 [09:45<00:24, 12.28s/ba, loss/train/total=0.1508]      [A
+0: train          Epoch   0:   98%|████████████████████████▍| 47/48 [09:45<00:12, 12.28s/ba, loss/train/total=0.1508]      [A
+0: train          Epoch   0:   98%|████████████████████████▍| 47/48 [09:45<00:12, 12.28s/ba, loss/train/total=0.1508]      [A
+0: train          Epoch   0:   98%|████████████████████████▍| 47/48 [09:57<00:12, 12.28s/ba, loss/train/total=0.1521]      [A
+0: train          Epoch   0:  100%|█████████████████████████| 48/48 [09:57<00:00, 12.28s/ba, loss/train/total=0.1521]      [A
+0: train          Epoch   0:  100%|█████████████████████████| 48/48 [09:57<00:00, 12.28s/ba, loss/train/total=0.1521]      [A
+0: train          Epoch   0:  100%|█████████████████████████| 48/48 [09:57<00:00, 12.45s/ba, loss/train/total=0.1521]      
+0: 
+0: train          Epoch   0:   98%|████████████████████████▍| 47/48 [09:57<00:12, 12.28s/ba, loss/train/total=0.1521]      [A
+0: train          Epoch   0:  100%|█████████████████████████| 48/48 [09:57<00:00, 12.28s/ba, loss/train/total=0.1521]      [A
+0: train          Epoch   0:  100%|█████████████████████████| 48/48 [09:57<00:00, 12.28s/ba, loss/train/total=0.1521]      [A
+0: train          Epoch   0:  100%|█████████████████████████| 48/48 [09:57<00:00, 12.45s/ba, loss/train/total=0.1521]      
+0: 
+0: train          Epoch   1:    0%|                         | 0/48 [00:00<?, ?ba/s]                                        [A
+0: train          Epoch   1:    0%|                         | 0/48 [00:00<?, ?ba/s]                                        [A
+0: train          Epoch   1:    0%|                         | 0/48 [00:17<?, ?ba/s, loss/train/total=0.1493]               [A
+0: train          Epoch   1:    0%|                         | 0/48 [00:17<?, ?ba/s, loss/train/total=0.1493]               [A
+0: train          Epoch   1:    2%|▌                        | 1/48 [00:17<13:46, 17.59s/ba, loss/train/total=0.1493]       [A
+0: train          Epoch   1:    2%|▌                        | 1/48 [00:17<13:46, 17.59s/ba, loss/train/total=0.1493]       [A
+0: train          Epoch   1:    2%|▌                        | 1/48 [00:29<13:46, 17.59s/ba, loss/train/total=0.1500]       [A
+0: train          Epoch   1:    2%|▌                        | 1/48 [00:29<13:46, 17.59s/ba, loss/train/total=0.1500]       [A
+0: train          Epoch   1:    4%|█                        | 2/48 [00:29<11:06, 14.48s/ba, loss/train/total=0.1500]       [A
+0: train          Epoch   1:    4%|█                        | 2/48 [00:29<11:06, 14.48s/ba, loss/train/total=0.1500]       [A
+0: train          Epoch   1:    4%|█                        | 2/48 [00:42<11:06, 14.48s/ba, loss/train/total=0.1419]       [A
+0: train          Epoch   1:    4%|█                        | 2/48 [00:42<11:06, 14.48s/ba, loss/train/total=0.1419]       [A
+0: train          Epoch   1:    6%|█▌                       | 3/48 [00:42<10:06, 13.48s/ba, loss/train/total=0.1419]       [A
+0: train          Epoch   1:    6%|█▌                       | 3/48 [00:42<10:06, 13.48s/ba, loss/train/total=0.1419]       [A
+0: train          Epoch   1:    6%|█▌                       | 3/48 [00:54<10:06, 13.48s/ba, loss/train/total=0.1523]       [A
+0: train          Epoch   1:    6%|█▌                       | 3/48 [00:54<10:06, 13.48s/ba, loss/train/total=0.1523]       [A
+0: train          Epoch   1:    8%|██                       | 4/48 [00:54<09:32, 13.02s/ba, loss/train/total=0.1523]       [A
+0: train          Epoch   1:    8%|██                       | 4/48 [00:54<09:32, 13.02s/ba, loss/train/total=0.1523]       [A
+0: train          Epoch   1:    8%|██                       | 4/48 [01:06<09:32, 13.02s/ba, loss/train/total=0.1441]       [A
+0: train          Epoch   1:    8%|██                       | 4/48 [01:06<09:32, 13.02s/ba, loss/train/total=0.1441]       [A
+0: train          Epoch   1:   10%|██▌                      | 5/48 [01:06<09:08, 12.76s/ba, loss/train/total=0.1441]       [A
+0: train          Epoch   1:   10%|██▌                      | 5/48 [01:06<09:08, 12.76s/ba, loss/train/total=0.1441]       [A
+0: train          Epoch   1:   10%|██▌                      | 5/48 [01:18<09:08, 12.76s/ba, loss/train/total=0.1473]       [A
+0: train          Epoch   1:   10%|██▌                      | 5/48 [01:18<09:08, 12.76s/ba, loss/train/total=0.1473]       [A
+0: train          Epoch   1:   12%|███▏                     | 6/48 [01:18<08:45, 12.50s/ba, loss/train/total=0.1473]       [A
+0: train          Epoch   1:   12%|███▏                     | 6/48 [01:18<08:45, 12.50s/ba, loss/train/total=0.1473]       [A
+0: train          Epoch   1:   12%|███▏                     | 6/48 [01:30<08:45, 12.50s/ba, loss/train/total=0.1488]       [A
+0: train          Epoch   1:   12%|███▏                     | 6/48 [01:30<08:45, 12.50s/ba, loss/train/total=0.1488]       [A
+0: train          Epoch   1:   15%|███▋                     | 7/48 [01:30<08:25, 12.34s/ba, loss/train/total=0.1488]       [A
+0: train          Epoch   1:   15%|███▋                     | 7/48 [01:30<08:25, 12.34s/ba, loss/train/total=0.1488]       [A
+0: train          Epoch   1:   15%|███▋                     | 7/48 [01:42<08:25, 12.34s/ba, loss/train/total=0.1488]       [A
+0: train          Epoch   1:   15%|███▋                     | 7/48 [01:42<08:25, 12.34s/ba, loss/train/total=0.1488]       [A
+0: train          Epoch   1:   17%|████▏                    | 8/48 [01:42<08:08, 12.22s/ba, loss/train/total=0.1488]       [A
+0: train          Epoch   1:   17%|████▏                    | 8/48 [01:42<08:08, 12.22s/ba, loss/train/total=0.1488]       [A
+0: train          Epoch   1:   17%|████▏                    | 8/48 [01:54<08:08, 12.22s/ba, loss/train/total=0.1452]       [A
+0: train          Epoch   1:   17%|████▏                    | 8/48 [01:54<08:08, 12.22s/ba, loss/train/total=0.1452]       [A
+0: train          Epoch   1:   19%|████▋                    | 9/48 [01:54<07:53, 12.15s/ba, loss/train/total=0.1452]       [A
+0: train          Epoch   1:   19%|████▋                    | 9/48 [01:54<07:53, 12.15s/ba, loss/train/total=0.1452]       [A
+0: train          Epoch   1:   19%|████▋                    | 9/48 [02:06<07:53, 12.15s/ba, loss/train/total=0.1473]       [A
+0: train          Epoch   1:   19%|████▋                    | 9/48 [02:06<07:53, 12.15s/ba, loss/train/total=0.1473]       [A
+0: train          Epoch   1:   21%|█████▏                   | 10/48 [02:06<07:42, 12.17s/ba, loss/train/total=0.1473]      [A
+0: train          Epoch   1:   21%|█████▏                   | 10/48 [02:06<07:42, 12.17s/ba, loss/train/total=0.1473]      [A
+0: train          Epoch   1:   21%|█████▏                   | 10/48 [02:18<07:42, 12.17s/ba, loss/train/total=0.1463]      [A
+0: train          Epoch   1:   21%|█████▏                   | 10/48 [02:18<07:42, 12.17s/ba, loss/train/total=0.1463]      [A
+0: train          Epoch   1:   23%|█████▋                   | 11/48 [02:18<07:28, 12.11s/ba, loss/train/total=0.1463]      [A
+0: train          Epoch   1:   23%|█████▋                   | 11/48 [02:18<07:28, 12.11s/ba, loss/train/total=0.1463]      [A
+0: train          Epoch   1:   23%|█████▋                   | 11/48 [02:30<07:28, 12.11s/ba, loss/train/total=0.1475]      [A
+0: train          Epoch   1:   23%|█████▋                   | 11/48 [02:30<07:28, 12.11s/ba, loss/train/total=0.1475]      [A
+0: train          Epoch   1:   25%|██████▎                  | 12/48 [02:30<07:14, 12.08s/ba, loss/train/total=0.1475]      [A
+0: train          Epoch   1:   25%|██████▎                  | 12/48 [02:30<07:14, 12.08s/ba, loss/train/total=0.1475]      [A
+0: train          Epoch   1:   25%|██████▎                  | 12/48 [02:42<07:14, 12.08s/ba, loss/train/total=0.1533]      [A
+0: train          Epoch   1:   25%|██████▎                  | 12/48 [02:42<07:14, 12.08s/ba, loss/train/total=0.1533]      [A
+0: train          Epoch   1:   27%|██████▊                  | 13/48 [02:42<07:01, 12.05s/ba, loss/train/total=0.1533]      [A
+0: train          Epoch   1:   27%|██████▊                  | 13/48 [02:42<07:01, 12.05s/ba, loss/train/total=0.1533]      [A
+0: train          Epoch   1:   27%|██████▊                  | 13/48 [02:54<07:01, 12.05s/ba, loss/train/total=0.1524]      [A
+0: train          Epoch   1:   27%|██████▊                  | 13/48 [02:54<07:01, 12.05s/ba, loss/train/total=0.1524]      [A
+0: train          Epoch   1:   29%|███████▎                 | 14/48 [02:54<06:48, 12.03s/ba, loss/train/total=0.1524]      [A
+0: train          Epoch   1:   29%|███████▎                 | 14/48 [02:54<06:48, 12.03s/ba, loss/train/total=0.1524]      [A
+0: train          Epoch   1:   29%|███████▎                 | 14/48 [03:06<06:48, 12.03s/ba, loss/train/total=0.1445]      [A
+0: train          Epoch   1:   29%|███████▎                 | 14/48 [03:06<06:48, 12.03s/ba, loss/train/total=0.1445]      [A
+0: train          Epoch   1:   31%|███████▊                 | 15/48 [03:06<06:36, 12.01s/ba, loss/train/total=0.1445]      [A
+0: train          Epoch   1:   31%|███████▊                 | 15/48 [03:06<06:36, 12.01s/ba, loss/train/total=0.1445]      [A
+0: train          Epoch   1:   31%|███████▊                 | 15/48 [03:18<06:36, 12.01s/ba, loss/train/total=0.1429]      [A
+0: train          Epoch   1:   31%|███████▊                 | 15/48 [03:18<06:36, 12.01s/ba, loss/train/total=0.1429]      [A
+0: train          Epoch   1:   33%|████████▎                | 16/48 [03:18<06:24, 12.03s/ba, loss/train/total=0.1429]      [A
+0: train          Epoch   1:   33%|████████▎                | 16/48 [03:18<06:24, 12.03s/ba, loss/train/total=0.1429]      [A
+0: train          Epoch   1:   33%|████████▎                | 16/48 [03:30<06:24, 12.03s/ba, loss/train/total=0.1491]      [A
+0: train          Epoch   1:   33%|████████▎                | 16/48 [03:30<06:24, 12.03s/ba, loss/train/total=0.1491]      [A
+0: train          Epoch   1:   35%|████████▊                | 17/48 [03:30<06:12, 12.02s/ba, loss/train/total=0.1491]      [A
+0: train          Epoch   1:   35%|████████▊                | 17/48 [03:30<06:12, 12.02s/ba, loss/train/total=0.1491]      [A
+0: train          Epoch   1:   35%|████████▊                | 17/48 [03:42<06:12, 12.02s/ba, loss/train/total=0.1485]      [A
+0: train          Epoch   1:   35%|████████▊                | 17/48 [03:42<06:12, 12.02s/ba, loss/train/total=0.1485]      [A
+0: train          Epoch   1:   38%|█████████▍               | 18/48 [03:42<06:00, 12.02s/ba, loss/train/total=0.1485]      [A
+0: train          Epoch   1:   38%|█████████▍               | 18/48 [03:42<06:00, 12.02s/ba, loss/train/total=0.1485]      [A
+0: train          Epoch   1:   38%|█████████▍               | 18/48 [03:54<06:00, 12.02s/ba, loss/train/total=0.1562]      [A
+0: train          Epoch   1:   38%|█████████▍               | 18/48 [03:54<06:00, 12.02s/ba, loss/train/total=0.1562]      [A
+0: train          Epoch   1:   40%|█████████▉               | 19/48 [03:54<05:48, 12.01s/ba, loss/train/total=0.1562]      [A
+0: train          Epoch   1:   40%|█████████▉               | 19/48 [03:54<05:48, 12.01s/ba, loss/train/total=0.1562]      [A
+0: train          Epoch   1:   40%|█████████▉               | 19/48 [04:06<05:48, 12.01s/ba, loss/train/total=0.1456]      [A
+0: train          Epoch   1:   40%|█████████▉               | 19/48 [04:06<05:48, 12.01s/ba, loss/train/total=0.1456]      [A
+0: train          Epoch   1:   42%|██████████▍              | 20/48 [04:07<05:36, 12.02s/ba, loss/train/total=0.1456]      [A
+0: train          Epoch   1:   42%|██████████▍              | 20/48 [04:07<05:36, 12.02s/ba, loss/train/total=0.1456]      [A
+0: train          Epoch   1:   42%|██████████▍              | 20/48 [04:19<05:36, 12.02s/ba, loss/train/total=0.1432]      [A
+0: train          Epoch   1:   42%|██████████▍              | 20/48 [04:19<05:36, 12.02s/ba, loss/train/total=0.1432]      [A
+0: train          Epoch   1:   44%|██████████▉              | 21/48 [04:19<05:24, 12.03s/ba, loss/train/total=0.1432]      [A
+0: train          Epoch   1:   44%|██████████▉              | 21/48 [04:19<05:24, 12.03s/ba, loss/train/total=0.1432]      [A
+0: train          Epoch   1:   44%|██████████▉              | 21/48 [04:31<05:24, 12.03s/ba, loss/train/total=0.1575]      [A
+0: train          Epoch   1:   44%|██████████▉              | 21/48 [04:31<05:24, 12.03s/ba, loss/train/total=0.1575]      [A
+0: train          Epoch   1:   46%|███████████▍             | 22/48 [04:31<05:12, 12.04s/ba, loss/train/total=0.1575]      [A
+0: train          Epoch   1:   46%|███████████▍             | 22/48 [04:31<05:12, 12.04s/ba, loss/train/total=0.1575]      [A
+0: train          Epoch   1:   46%|███████████▍             | 22/48 [04:43<05:12, 12.04s/ba, loss/train/total=0.1454]      [A
+0: train          Epoch   1:   46%|███████████▍             | 22/48 [04:43<05:12, 12.04s/ba, loss/train/total=0.1454]      [A
+0: train          Epoch   1:   48%|███████████▉             | 23/48 [04:43<05:00, 12.03s/ba, loss/train/total=0.1454]      [A
+0: train          Epoch   1:   48%|███████████▉             | 23/48 [04:43<05:00, 12.03s/ba, loss/train/total=0.1454]      [A
+0: train          Epoch   1:   48%|███████████▉             | 23/48 [04:55<05:00, 12.03s/ba, loss/train/total=0.1450]      [A
+0: train          Epoch   1:   48%|███████████▉             | 23/48 [04:55<05:00, 12.03s/ba, loss/train/total=0.1450]      [A
+0: train          Epoch   1:   50%|████████████▌            | 24/48 [04:55<04:48, 12.04s/ba, loss/train/total=0.1450]      [A
+0: train          Epoch   1:   50%|████████████▌            | 24/48 [04:55<04:48, 12.04s/ba, loss/train/total=0.1450]      [A
+0: train          Epoch   1:   50%|████████████▌            | 24/48 [05:07<04:48, 12.04s/ba, loss/train/total=0.1443]      [A
+0: train          Epoch   1:   50%|████████████▌            | 24/48 [05:07<04:48, 12.04s/ba, loss/train/total=0.1443]      [A
+0: train          Epoch   1:   52%|█████████████            | 25/48 [05:07<04:36, 12.03s/ba, loss/train/total=0.1443]      [A
+0: train          Epoch   1:   52%|█████████████            | 25/48 [05:07<04:36, 12.03s/ba, loss/train/total=0.1443]      [A
+0: train          Epoch   1:   52%|█████████████            | 25/48 [05:19<04:36, 12.03s/ba, loss/train/total=0.1549]      [A
+0: train          Epoch   1:   52%|█████████████            | 25/48 [05:19<04:36, 12.03s/ba, loss/train/total=0.1549]      [A
+0: train          Epoch   1:   54%|█████████████▌           | 26/48 [05:19<04:24, 12.04s/ba, loss/train/total=0.1549]      [A
+0: train          Epoch   1:   54%|█████████████▌           | 26/48 [05:19<04:24, 12.04s/ba, loss/train/total=0.1549]      [A
+0: train          Epoch   1:   54%|█████████████▌           | 26/48 [05:31<04:24, 12.04s/ba, loss/train/total=0.1447]      [A
+0: train          Epoch   1:   54%|█████████████▌           | 26/48 [05:31<04:24, 12.04s/ba, loss/train/total=0.1447]      [A
+0: train          Epoch   1:   56%|██████████████           | 27/48 [05:31<04:12, 12.03s/ba, loss/train/total=0.1447]      [A
+0: train          Epoch   1:   56%|██████████████           | 27/48 [05:31<04:12, 12.03s/ba, loss/train/total=0.1447]      [A
+0: train          Epoch   1:   56%|██████████████           | 27/48 [05:43<04:12, 12.03s/ba, loss/train/total=0.1455]      [A
+0: train          Epoch   1:   56%|██████████████           | 27/48 [05:43<04:12, 12.03s/ba, loss/train/total=0.1455]      [A
+0: train          Epoch   1:   58%|██████████████▌          | 28/48 [05:43<04:00, 12.04s/ba, loss/train/total=0.1455]      [A
+0: train          Epoch   1:   58%|██████████████▌          | 28/48 [05:43<04:00, 12.04s/ba, loss/train/total=0.1455]      [A
+0: train          Epoch   1:   58%|██████████████▌          | 28/48 [05:55<04:00, 12.04s/ba, loss/train/total=0.1453]      [A
+0: train          Epoch   1:   58%|██████████████▌          | 28/48 [05:55<04:00, 12.04s/ba, loss/train/total=0.1453]      [A
+0: train          Epoch   1:   60%|███████████████          | 29/48 [05:55<03:48, 12.04s/ba, loss/train/total=0.1453]      [A
+0: train          Epoch   1:   60%|███████████████          | 29/48 [05:55<03:48, 12.04s/ba, loss/train/total=0.1453]      [A
+0: train          Epoch   1:   60%|███████████████          | 29/48 [06:07<03:48, 12.04s/ba, loss/train/total=0.1452]      [A
+0: train          Epoch   1:   60%|███████████████          | 29/48 [06:07<03:48, 12.04s/ba, loss/train/total=0.1452]      [A
+0: train          Epoch   1:   62%|███████████████▋         | 30/48 [06:07<03:38, 12.13s/ba, loss/train/total=0.1452]      [A
+0: train          Epoch   1:   62%|███████████████▋         | 30/48 [06:07<03:38, 12.13s/ba, loss/train/total=0.1452]      [A
+0: train          Epoch   1:   62%|███████████████▋         | 30/48 [06:19<03:38, 12.13s/ba, loss/train/total=0.1553]      [A
+0: train          Epoch   1:   62%|███████████████▋         | 30/48 [06:19<03:38, 12.13s/ba, loss/train/total=0.1553]      [A
+0: train          Epoch   1:   65%|████████████████▏        | 31/48 [06:19<03:25, 12.10s/ba, loss/train/total=0.1553]      [A
+0: train          Epoch   1:   65%|████████████████▏        | 31/48 [06:19<03:25, 12.10s/ba, loss/train/total=0.1553]      [A
+0: train          Epoch   1:   65%|████████████████▏        | 31/48 [06:31<03:25, 12.10s/ba, loss/train/total=0.1580]      [A
+0: train          Epoch   1:   65%|████████████████▏        | 31/48 [06:31<03:25, 12.10s/ba, loss/train/total=0.1580]      [A
+0: train          Epoch   1:   67%|████████████████▋        | 32/48 [06:31<03:13, 12.09s/ba, loss/train/total=0.1580]      [A
+0: train          Epoch   1:   67%|████████████████▋        | 32/48 [06:31<03:13, 12.09s/ba, loss/train/total=0.1580]      [A
+0: train          Epoch   1:   67%|████████████████▋        | 32/48 [06:43<03:13, 12.09s/ba, loss/train/total=0.1480]      [A
+0: train          Epoch   1:   67%|████████████████▋        | 32/48 [06:43<03:13, 12.09s/ba, loss/train/total=0.1480]      [A
+0: train          Epoch   1:   69%|█████████████████▏       | 33/48 [06:43<03:01, 12.07s/ba, loss/train/total=0.1480]      [A
+0: train          Epoch   1:   69%|█████████████████▏       | 33/48 [06:43<03:01, 12.07s/ba, loss/train/total=0.1480]      [A
+0: train          Epoch   1:   69%|█████████████████▏       | 33/48 [06:55<03:01, 12.07s/ba, loss/train/total=0.1505]      [A
+0: train          Epoch   1:   69%|█████████████████▏       | 33/48 [06:55<03:01, 12.07s/ba, loss/train/total=0.1505]      [A
+0: train          Epoch   1:   71%|█████████████████▋       | 34/48 [06:55<02:48, 12.07s/ba, loss/train/total=0.1505]      [A
+0: train          Epoch   1:   71%|█████████████████▋       | 34/48 [06:55<02:48, 12.07s/ba, loss/train/total=0.1505]      [A
+0: train          Epoch   1:   71%|█████████████████▋       | 34/48 [07:07<02:48, 12.07s/ba, loss/train/total=0.1473]      [A
+0: train          Epoch   1:   71%|█████████████████▋       | 34/48 [07:07<02:48, 12.07s/ba, loss/train/total=0.1473]      [A
+0: train          Epoch   1:   73%|██████████████████▏      | 35/48 [07:07<02:36, 12.07s/ba, loss/train/total=0.1473]      [A
+0: train          Epoch   1:   73%|██████████████████▏      | 35/48 [07:07<02:36, 12.07s/ba, loss/train/total=0.1473]      [A
+0: train          Epoch   1:   73%|██████████████████▏      | 35/48 [07:20<02:36, 12.07s/ba, loss/train/total=0.1509]      [A
+0: train          Epoch   1:   73%|██████████████████▏      | 35/48 [07:20<02:36, 12.07s/ba, loss/train/total=0.1509]      [A
+0: train          Epoch   1:   75%|██████████████████▊      | 36/48 [07:20<02:24, 12.07s/ba, loss/train/total=0.1509]      [A
+0: train          Epoch   1:   75%|██████████████████▊      | 36/48 [07:20<02:24, 12.07s/ba, loss/train/total=0.1509]      [A
+0: train          Epoch   1:   75%|██████████████████▊      | 36/48 [07:32<02:24, 12.07s/ba, loss/train/total=0.1518]      [A
+0: train          Epoch   1:   75%|██████████████████▊      | 36/48 [07:32<02:24, 12.07s/ba, loss/train/total=0.1518]      [A

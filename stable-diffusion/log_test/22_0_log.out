@@ -1,0 +1,6 @@
+submitit INFO (2023-09-28 18:23:38,421) - Starting with JobEnvironment(job_id=22, hostname=awsankur-p4de-megatron-st-awsankur-p4de-megatron-1, local_rank=0(1), node=0(1), global_rank=0(1))
+submitit INFO (2023-09-28 18:23:38,421) - Loading pickle: /apps/accelerate-pcluster-distributed-training/stable-diffusion/log_test/22_submitted.pkl
+The following command is sent: "which python"
+/apps/.conda/envs/pytorch-py39/bin/python
+submitit INFO (2023-09-28 18:23:38,428) - Job completed successfully
+submitit INFO (2023-09-28 18:23:38,432) - Exitting after successful completion

@@ -1,0 +1,119 @@
+Run compute node awsankur-p4de-megatron-st-awsankur-p4de-megatron-2 for rank: 1
+Run master node awsankur-p4de-megatron-st-awsankur-p4de-megatron-1 for rank: 0
+0: Namespace(batch_size=2048, image_size=512, remote=None, local='/tmp/mds-cache/mds-laion-2/', use_synth_data=True, model_name='stabilityai/stable-diffusion-2-base', use_ema=True, wandb_name=None, wandb_project=None, device_train_microbatch_size=4)
+0: Namespace(batch_size=2048, image_size=512, remote=None, local='/tmp/mds-cache/mds-laion-2/', use_synth_data=True, model_name='stabilityai/stable-diffusion-2-base', use_ema=True, wandb_name=None, wandb_project=None, device_train_microbatch_size=4)
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:21195 [0] NCCL INFO Bootstrap : Using ens32:10.1.0.5<0>
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:21195 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:21195 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:21195 [0] NCCL INFO cudaDriverVersion 12020
+0: NCCL version 2.18.5+cuda12.1
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:20039 [0] NCCL INFO cudaDriverVersion 12020
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:20039 [0] NCCL INFO Bootstrap : Using ens32:10.1.106.157<0>
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:20039 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin_v6 symbol.
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:20039 [0] NCCL INFO NET/Plugin: Failed to find ncclCollNetPlugin symbol (v4 or v5).
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NET/OFI Initializing aws-ofi-nccl GitHub-dev
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NET/OFI Initializing aws-ofi-nccl GitHub-dev
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NET/OFI Using CUDA runtime version 12010
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NET/OFI Configuring AWS-specific options
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NET/OFI Running on p4de.24xlarge platform, Setting NCCL_TOPO_FILE environment variable to /opt/aws-ofi-nccl/install/share/aws-ofi-nccl/xml/p4de-24xl-topo.xml
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NET/OFI Internode latency set at 75.0 us
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NET/OFI Initializing aws-ofi-nccl GitHub-dev
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NET/OFI Initializing aws-ofi-nccl GitHub-dev
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NET/OFI Using CUDA runtime version 12010
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NET/OFI Configuring AWS-specific options
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NET/OFI Running on p4de.24xlarge platform, Setting NCCL_TOPO_FILE environment variable to /opt/aws-ofi-nccl/install/share/aws-ofi-nccl/xml/p4de-24xl-topo.xml
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NET/OFI Internode latency set at 75.0 us
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NET/OFI Selected Provider is efa (found 4 nics)
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NET/OFI Using transport protocol SENDRECV
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NET/OFI Setting FI_OPT_EFA_SENDRECV_IN_ORDER_ALIGNED_128_BYTES not supported.
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NET/OFI Setting NCCL_PROTO to "simple"
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Using network AWS Libfabric
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NET/OFI Selected Provider is efa (found 4 nics)
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NET/OFI Using transport protocol SENDRECV
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NET/OFI Setting FI_OPT_EFA_SENDRECV_IN_ORDER_ALIGNED_128_BYTES not supported.
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NET/OFI Setting NCCL_PROTO to "simple"
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Using network AWS Libfabric
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO comm 0x8aa71940 rank 8 nranks 16 cudaDev 0 nvmlDev 0 busId 101c0 commId 0x1b9629acdc596bf9 - Init START
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO comm 0x8af419d0 rank 0 nranks 16 cudaDev 0 nvmlDev 0 busId 101c0 commId 0x1b9629acdc596bf9 - Init START
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NCCL_TOPO_FILE set by environment to /opt/aws-ofi-nccl/install/share/aws-ofi-nccl/xml/p4de-24xl-topo.xml
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NCCL_TOPO_FILE set by environment to /opt/aws-ofi-nccl/install/share/aws-ofi-nccl/xml/p4de-24xl-topo.xml
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Setting affinity for GPU 0 to ff,ffff0000,00ffffff
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NVLS multicast support is not available on dev 0
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Setting affinity for GPU 0 to ff,ffff0000,00ffffff
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NVLS multicast support is not available on dev 0
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 00/08 :    0   7   6   5   4   3   2   1   8  15  14  13  12  11  10   9
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 01/08 :    0   3  10  15  14  13  12   9   8  11   2   7   6   5   4   1
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 02/08 :    0   7   6   5  12  11  10   9   8  15  14  13   4   3   2   1
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 03/08 :    0   5   4   7  14  11  10   9   8  13  12  15   6   3   2   1
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 04/08 :    0   7   6   5   4   3   2   1   8  15  14  13  12  11  10   9
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 05/08 :    0   3  10  15  14  13  12   9   8  11   2   7   6   5   4   1
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 06/08 :    0   7   6   5  12  11  10   9   8  15  14  13   4   3   2   1
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 07/08 :    0   5   4   7  14  11  10   9   8  13  12  15   6   3   2   1
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Trees [0] 1/8/-1->0->-1 [1] 1/-1/-1->0->7 [2] 1/-1/-1->0->7 [3] 1/-1/-1->0->7 [4] 1/-1/-1->0->8 [5] 1/-1/-1->0->7 [6] 1/-1/-1->0->7 [7] 1/-1/-1->0->7
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO P2P Chunksize set to 131072
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Trees [0] 9/-1/-1->8->0 [1] 9/-1/-1->8->15 [2] 9/-1/-1->8->15 [3] 9/-1/-1->8->15 [4] 9/0/-1->8->-1 [5] 9/-1/-1->8->15 [6] 9/-1/-1->8->15 [7] 9/-1/-1->8->15
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO P2P Chunksize set to 131072
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 01/0 : 0[0] -> 3[3] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 01/0 : 8[0] -> 11[3] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 05/0 : 0[0] -> 3[3] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 05/0 : 8[0] -> 11[3] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 03/0 : 8[0] -> 13[5] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 03/0 : 0[0] -> 5[5] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 07/0 : 0[0] -> 5[5] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 07/0 : 8[0] -> 13[5] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 00/0 : 9[1] -> 0[0] [receive] via NET/AWS Libfabric/0/GDRDMA
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 04/0 : 9[1] -> 0[0] [receive] via NET/AWS Libfabric/0/GDRDMA
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 00/0 : 0[0] -> 7[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 02/0 : 0[0] -> 7[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 00/0 : 1[1] -> 8[0] [receive] via NET/AWS Libfabric/0/GDRDMA
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 04/0 : 1[1] -> 8[0] [receive] via NET/AWS Libfabric/0/GDRDMA
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 00/0 : 8[0] -> 15[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 04/0 : 0[0] -> 7[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 02/0 : 8[0] -> 15[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 06/0 : 0[0] -> 7[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 04/0 : 8[0] -> 15[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 06/0 : 8[0] -> 15[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Connected all rings
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 02/0 : 0[0] -> 1[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 03/0 : 0[0] -> 1[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 04/0 : 0[0] -> 1[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 05/0 : 0[0] -> 1[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 06/0 : 0[0] -> 1[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 07/0 : 0[0] -> 1[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 01/0 : 0[0] -> 7[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 03/0 : 0[0] -> 7[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 05/0 : 0[0] -> 7[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 07/0 : 0[0] -> 7[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 00/0 : 8[0] -> 0[0] [receive] via NET/AWS Libfabric/0/GDRDMA
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 04/0 : 8[0] -> 0[0] [receive] via NET/AWS Libfabric/0/GDRDMA
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 00/0 : 0[0] -> 8[0] [send] via NET/AWS Libfabric/0/GDRDMA
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Channel 04/0 : 0[0] -> 8[0] [send] via NET/AWS Libfabric/0/GDRDMA
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Connected all rings
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 00/0 : 8[0] -> 9[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 01/0 : 8[0] -> 9[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 02/0 : 8[0] -> 9[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 03/0 : 8[0] -> 9[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 04/0 : 8[0] -> 9[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 05/0 : 8[0] -> 9[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 06/0 : 8[0] -> 9[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 07/0 : 8[0] -> 9[1] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 01/0 : 8[0] -> 15[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 03/0 : 8[0] -> 15[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 05/0 : 8[0] -> 15[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 07/0 : 8[0] -> 15[7] via P2P/IPC/read
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 00/0 : 0[0] -> 8[0] [receive] via NET/AWS Libfabric/0/GDRDMA
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 04/0 : 0[0] -> 8[0] [receive] via NET/AWS Libfabric/0/GDRDMA
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 00/0 : 8[0] -> 0[0] [send] via NET/AWS Libfabric/0/GDRDMA
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Channel 04/0 : 8[0] -> 0[0] [send] via NET/AWS Libfabric/0/GDRDMA
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO Connected all trees
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO NCCL_PROTO set by environment to simple
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO Connected all trees
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO NCCL_PROTO set by environment to simple
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-2:20039:21055 [0] NCCL INFO comm 0x8aa71940 rank 8 nranks 16 cudaDev 0 nvmlDev 0 busId 101c0 commId 0x1b9629acdc596bf9 - Init COMPLETE
+0: awsankur-p4de-megatron-st-awsankur-p4de-megatron-1:21195:22212 [0] NCCL INFO comm 0x8af419d0 rank 0 nranks 16 cudaDev 0 nvmlDev 0 busId 101c0 commId 0x1b9629acdc596bf9 - Init COMPLETE
