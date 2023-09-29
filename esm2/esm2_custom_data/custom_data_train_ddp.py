@@ -199,7 +199,7 @@ class Dataset(torch.utils.data.Dataset):
         #'Initialization'
         self.file_index_map = file_index_map_df
         self.list_IDs = list_IDs
-        self.data_dir = './sample-amgen-data'
+        self.data_dir = '/home/ubuntu/amgen/sample-amgen-data'
         self.files = glob.glob(self.data_dir+"/*")
         
     def __len__(self):
@@ -217,7 +217,7 @@ class Dataset(torch.utils.data.Dataset):
         
         
         file_num = file_index_map_df.loc[(ID >= file_index_map_df['start_line_num']) & (ID <= file_index_map_df['end_line_num'])==True,'file_num'].iloc[0]
-        start_line_num = int(file_index_map_df.loc[file_index_map_df['file_num']==file_num,'start_line_num'])
+        start_line_num = file_index_map_df.loc[file_index_map_df['file_num']==file_num,'start_line_num'].iloc[0]
         
         local_ID = ID - start_line_num
         
@@ -353,7 +353,12 @@ def main():
             batch = {
                 k: v.to(device_id) for k, v, in batch.items()
             }  # Transfer data to accelerator
+            print(type(batch))
+            print(batch)
+
             outputs = model(**batch)  # Forward pass
+            print(outputs)
+
             optimizer.zero_grad()  # Set all tensor gradients to zero
             loss = outputs.loss  # Calculate loss
             loss.backward()  # Calculate new gradients with backprop

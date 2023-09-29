@@ -2,7 +2,7 @@ import glob
 import os
 import pandas as pd
 
-data_path = './sample-amgen-data'
+data_path = '/home/ubuntu/amgen/sample-amgen-data'
 
 files = glob.glob(data_path+"/*")
 
